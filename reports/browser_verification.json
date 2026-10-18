@@ -1,0 +1,35 @@
+{
+  "actual_browser_rendering": true,
+  "content_layout_widths_after_scrollbar_pixels": [
+    360,
+    305
+  ],
+  "date": "2026-10-18",
+  "desktop_layout_width_pixels": 1348,
+  "iframe_widths_tested_pixels": [
+    375,
+    320
+  ],
+  "keyboard": [
+    "Reference month, method and target native selects",
+    "AR1-only hindsight checkbox",
+    "Reset returns December2025 persistence/default target"
+  ],
+  "live_url": "https://prasanna-k-123.github.io/inflation-vintages/",
+  "no_document_horizontal_overflow": true,
+  "observed_results": {
+    "august2024_hindsight_ar1_display": 4.687,
+    "august2024_honest_ar1_display": 4.652,
+    "default_first_target": 1.33,
+    "default_persistence_forecast": 0.71
+  },
+  "official_release_link_verified": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2032780&lang=2&reg=3",
+  "pdf_downloads": {
+    "brief_sha256": "5e7f96c277ed5a80142065ac023aa8d82c7ca1338421ac360631cb817997ccc1",
+    "downloaded_bytes_match_published_files": true,
+    "paper_sha256": "4b2ac12135190bf549d0e61b6111d36d427bab3b578ca2a380dce161182fb080"
+  },
+  "phone_OS_or_touch_emulation_claimed": false,
+  "public_data_are_aggregate_only": true,
+  "screen_reader_certification_claimed": false
+}

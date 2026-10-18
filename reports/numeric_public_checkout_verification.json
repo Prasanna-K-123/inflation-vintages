@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "public_files_only": true,
+  "raw_documents_present": false,
+  "model_artifact_present": false,
+  "forecast_values_reconstructed": 54,
+  "original_document_reaudit": false
+}

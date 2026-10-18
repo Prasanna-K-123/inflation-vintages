@@ -1,0 +1,71 @@
+{
+  "frozen_final_forecasts_reconstructed": 54,
+  "hindsight_metrics": {
+    "mae_pp": 1.5387264108924614,
+    "mean_error_pp": 1.404311022812668,
+    "mse_pp_squared": 2.840676182001727,
+    "rmse_pp": 1.6854305627944828
+  },
+  "independent_training_coefficient_absolute_differences": {
+    "coefficient_standardized": 0.0,
+    "feature_mean": 0.0,
+    "feature_scale": 0.0,
+    "intercept_standardized": 0.0
+  },
+  "later_final_metrics": {
+    "persistence": {
+      "mae_pp": 0.6844444444444444,
+      "mean_error_pp": 0.20999999999999996,
+      "mse_pp_squared": 0.6680777777777778,
+      "rmse_pp": 0.8173602496927397
+    },
+    "ridge_ar1": {
+      "mae_pp": 1.5413523702151837,
+      "mean_error_pp": 1.40693698213539,
+      "mse_pp_squared": 2.8615631384065727,
+      "rmse_pp": 1.6916155409568017
+    },
+    "seasonal_12month": {
+      "mae_pp": 2.337222222222222,
+      "mean_error_pp": 2.136111111111111,
+      "mse_pp_squared": 8.007316666666668,
+      "rmse_pp": 2.829720245301056
+    }
+  },
+  "passed": true,
+  "primary_metrics": {
+    "persistence": {
+      "mae_pp": 0.6827777777777779,
+      "mean_error_pp": 0.20833333333333334,
+      "mse_pp_squared": 0.6699722222222222,
+      "rmse_pp": 0.8185183090329881
+    },
+    "ridge_ar1": {
+      "mae_pp": 1.5396857035485167,
+      "mean_error_pp": 1.4052703154687234,
+      "mse_pp_squared": 2.856496036094874,
+      "rmse_pp": 1.6901171663807435
+    },
+    "seasonal_12month": {
+      "mae_pp": 2.335555555555556,
+      "mean_error_pp": 2.1344444444444446,
+      "mse_pp_squared": 7.997611111111112,
+      "rmse_pp": 2.8280047933324144
+    }
+  },
+  "primary_paired_interval": {
+    "circular_block_months": 3,
+    "conditional_95_percentile_interval": [
+      0.6136927709995084,
+      3.816554818735052
+    ],
+    "draws": 2000,
+    "mean": 2.186523813872652,
+    "seed": 20261017
+  },
+  "published_frozen_hashes_checked": 10,
+  "raw_document_hash_and_XPath_reaudit_performed": false,
+  "reconstructed_model_artifact_hash_matches": true,
+  "scope": "Numeric reproduction from the published frozen vintage table and publication metadata. This does not reacquire or independently re-audit original source documents. Full source-cell audit remains evaluate_final.py with pinned raw bytes.",
+  "training_pairs": 23
+}

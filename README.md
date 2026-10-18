@@ -2,9 +2,25 @@
 
 A publication-aware economic research pipeline for old-base Combined headline CPI inflation. It separates first provisional values from later final and prior-year observations and refuses to join the 2026 base revision into a cosmetic rescaling.
 
-The archive contains 48 official releases and 144 vintage observations, with fixed models, an 18-release final evaluation, a research paper and a dated two-page brief. Persistence final RMSE is 0.8185 pp versus fixed AR(1) 1.6901. Retain the already selected simple baseline. See [research paper](reports/RESEARCH_PAPER.md), [PDF paper](output/pdf/P6_Inflation_Research_Paper.pdf) and [two-page brief](output/pdf/P6_December_2025_Forecast_Brief.pdf). Public release and rendered-demo verification remain pending. No current inflation forecast is claimed.
+The archive contains 48 official releases and 144 vintage observations, with fixed models, an 18-release final evaluation, a research paper and a dated two-page brief. Persistence final RMSE is 0.8185 pp versus fixed AR(1) 1.6901. Retain the already selected simple baseline. See [research paper](reports/RESEARCH_PAPER.md), [PDF paper](output/pdf/P6_Inflation_Research_Paper.pdf) and [two-page brief](output/pdf/P6_December_2025_Forecast_Brief.pdf). The [live explorer](https://prasanna-k-123.github.io/inflation-vintages/) has passed desktop, 375/320-pixel layout, native keyboard and PDF-download checks. No current inflation forecast is claimed.
 
-## Reproduce this milestone
+## Reproduce numeric results from the public checkout
+
+Install the pinned requirements, then run:
+
+```bash
+python scripts/reproduce_numeric_results.py
+```
+
+This requires no raw-document cache or private model artifact. It checks ten
+published frozen-file hashes, reconstructs the original model-artifact hash from
+its published coefficients, independently reproduces the 23-pair Ridge fit,
+reconstructs all 54 final forecasts, and reproduces primary/later-final metrics,
+the paired block interval and hindsight diagnostic. A clean public-file-only run
+passed. It is a numeric reproduction of the published vintage table; it does
+not independently re-audit the original HTML/PDF source bytes or XPath cells.
+
+## Reproduce the full source-cell audit
 
 Use pinned requirements and the cached source documents. New acquisition follows only the documented official URLs in scripts/acquire_sources.py. Then:
 
@@ -36,4 +52,4 @@ node tests/check_explorer.cjs
 python scripts/verify_demo_links.py
 ```
 
-The checks execute the actual page script against the saved Python results and verify local links, page headings and form labels. They do not establish rendered browser, mobile, keyboard or live-site behaviour. Those checks and the verified version tag remain in [the release checklist](docs/RELEASE.md).
+The checks execute the actual page script against the saved Python results and verify local links, page headings and form labels. They do not establish rendered browser, mobile, keyboard or live-site behaviour. Actual desktop, 375/320-pixel browser, keyboard and live-link checks are recorded separately in [the release record](docs/RELEASE.md).
