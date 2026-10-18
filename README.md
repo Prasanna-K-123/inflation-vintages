@@ -2,7 +2,7 @@
 
 A publication-aware economic research pipeline for old-base Combined headline CPI inflation. It separates first provisional values from later final and prior-year observations and refuses to join the 2026 base revision into a cosmetic rescaling.
 
-Completed A-E: 48 official releases, 144 vintage observations, fixed models, an 18-release final evaluation, a research paper and a dated two-page brief. Persistence final RMSE is 0.8185 pp versus fixed AR(1) 1.6901. Retain the already selected simple baseline. See [research paper](reports/RESEARCH_PAPER.md), [PDF paper](output/pdf/P6_Inflation_Research_Paper.pdf) and [two-page brief](output/pdf/P6_December_2025_Forecast_Brief.pdf). Public release and verified demo F remain open. No current inflation forecast is claimed.
+The archive contains 48 official releases and 144 vintage observations, with fixed models, an 18-release final evaluation, a research paper and a dated two-page brief. Persistence final RMSE is 0.8185 pp versus fixed AR(1) 1.6901. Retain the already selected simple baseline. See [research paper](reports/RESEARCH_PAPER.md), [PDF paper](output/pdf/P6_Inflation_Research_Paper.pdf) and [two-page brief](output/pdf/P6_December_2025_Forecast_Brief.pdf). Public release and rendered-demo verification remain pending. No current inflation forecast is claimed.
 
 ## Reproduce this milestone
 
