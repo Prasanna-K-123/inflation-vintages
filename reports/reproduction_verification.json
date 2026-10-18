@@ -1,0 +1,14 @@
+{
+  "same_environment": true,
+  "six_outputs_byte_identical": true,
+  "sha256": {
+    "reports/data_audit.json": "2c61fa77f599595b0cfa355f611fe1cede720772e454d2253167e77289034be3",
+    "data/processed/vintages.json": "9ff804cceabd31625f6c0aef276ce9bcf340668f2c5e30d8c0d816dcd5ad07a6",
+    "data/processed/releases.json": "19400b1ffeb3a55a323737f13d559db49f027dfed61082ecd91ac1444a8f0379",
+    "reports/development.json": "93bfa92151fd94329f829f90a0814b03d916fffde293a13efc72b8e985784592",
+    "data/processed/final_forecasts.json": "2c2b2077d3d4987de89abb1a449671341b83f2af839c1461252cdfba6d79445c",
+    "reports/model_freeze.json": "1219659209e00d8d7f28f155e0a6be719db7d0656f6c3b6e1c87137d7cb56b68"
+  },
+  "final_errors_computed": false,
+  "external_review": false
+}

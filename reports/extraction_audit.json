@@ -1,0 +1,818 @@
+[
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices Jan. 2022 (Prov.) Dec. 2021 (Final) Jan. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 6.12 5.91 6.01 5.36 5.90 5.66 3.23 5.13 4.06 CFPI 5.18 5.88 5.43 3.39 5.08 4.05 1.11 3.36 1.96",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      6.12,
+      5.91,
+      6.01,
+      5.36,
+      5.9,
+      5.66,
+      3.23,
+      5.13,
+      4.06
+    ],
+    "reference_month": "2022-01"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices Feb. 2022 (Prov.) Jan. 2022 (Final) Feb. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 6.38 5.75 6.07 6.12 5.91 6.01 4.19 5.96 5.03 CFPI 5.87 5.76 5.85 5.18 5.88 5.43 2.89 5.63 3.87",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      6.38,
+      5.75,
+      6.07,
+      6.12,
+      5.91,
+      6.01,
+      4.19,
+      5.96,
+      5.03
+    ],
+    "reference_month": "2022-02"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices Mar. 2022 (Prov.) Feb. 2022 (Final) Mar. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 7.66 6.12 6.95 6.38 5.75 6.07 4.61 6.52 5.52 CFPI 8.04 7.04 7.68 5.81 5.76 5.85 3.94 6.64 4.87",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      7.66,
+      6.12,
+      6.95,
+      6.38,
+      5.75,
+      6.07,
+      4.61,
+      6.52,
+      5.52
+    ],
+    "reference_month": "2022-03"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices Apr. 2022 (Prov.) Mar. 2022 (Final) Apr. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 8.38 7.09 7.79 7.66 6.12 6.95 3.75 4.71 4.23 CFPI 8.50 8.09 8.38 8.04 7.04 7.68 1.31 3.15 1.96",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      8.38,
+      7.09,
+      7.79,
+      7.66,
+      6.12,
+      6.95,
+      3.75,
+      4.71,
+      4.23
+    ],
+    "reference_month": "2022-04"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices May. 2022 (Prov.) Apr. 2022 (Final) May. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 7.01 7.08 7.04 8.38 7.09 7.79 6.55 5.91 6.30 CFPI 7.76 8.20 7.97 8.50 8.09 8.31 4.52 5.97 5.01",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      7.01,
+      7.08,
+      7.04,
+      8.38,
+      7.09,
+      7.79,
+      6.55,
+      5.91,
+      6.3
+    ],
+    "reference_month": "2022-05"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices Jun. 2022 (Prov.) May. 2022 (Final) Jun. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 7.09 6.92 7.01 7.08 7.08 7.04 6.16 6.37 6.26 CFPI 7.61 8.04 7.75 7.76 8.20 7.97 5.02 5.42 5.15",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      7.09,
+      6.92,
+      7.01,
+      7.08,
+      7.08,
+      7.04,
+      6.16,
+      6.37,
+      6.26
+    ],
+    "reference_month": "2022-06"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices Jul. 2022 (Prov.) Jun. 2022 (Final) Jul. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 6.80 6.49 6.71 7.09 6.86 7.01 5.49 5.82 5.59 CFPI 6.80 6.69 6.75 7.61 8.04 7.75 3.55 4.56 3.96",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      6.8,
+      6.49,
+      6.71,
+      7.09,
+      6.86,
+      7.01,
+      5.49,
+      5.82,
+      5.59
+    ],
+    "reference_month": "2022-07"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices Aug. 2022 (Prov.) Jul. 2022 (Final) Aug. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 7.15 6.72 7.00 6.80 6.49 6.71 5.28 5.32 5.30 CFPI 7.60 7.55 7.62 6.73 6.69 6.69 3.08 3.28 3.11",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      7.15,
+      6.72,
+      7.0,
+      6.8,
+      6.49,
+      6.71,
+      5.28,
+      5.32,
+      5.3
+    ],
+    "reference_month": "2022-08"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices Sep. 2022 (Prov.) Aug. 2022 (Final) Sep. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 7.56 7.27 7.41 7.15 6.72 7.00 4.13 4.57 4.35 CFPI 8.53 8.65 8.60 7.60 7.55 7.62 0.69 0.67 0.68",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      7.56,
+      7.27,
+      7.41,
+      7.15,
+      6.72,
+      7.0,
+      4.13,
+      4.57,
+      4.35
+    ],
+    "reference_month": "2022-09"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices Oct. 2022 (Prov.) Sep. 2022 (Final) Oct. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 6.98 6.50 6.77 7.56 7.27 7.41 4.07 5.04 4.48 CFPI 7.30 6.53 7.01 8.53 8.77 8.60 0.31 1.78 0.85",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      6.98,
+      6.5,
+      6.77,
+      7.56,
+      7.27,
+      7.41,
+      4.07,
+      5.04,
+      4.48
+    ],
+    "reference_month": "2022-10"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices Nov. 2022 (Prov.) Oct. 2022 (Final) Nov. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 6.09 5.68 5.88 6.98 6.50 6.77 4.29 5.54 4.91 CFPI 5.22 3.69 4.67 7.30 6.53 7.01 1.09 3.33 1.87",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      6.09,
+      5.68,
+      5.88,
+      6.98,
+      6.5,
+      6.77,
+      4.29,
+      5.54,
+      4.91
+    ],
+    "reference_month": "2022-11"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Indices Dec. 2022 (Prov.) Nov. 2022 (Final) Dec. 2021 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. CPI (General) 6.05 5.39 5.72 6.09 5.68 5.88 5.36 5.90 5.66 CFPI 5.05 2.80 4.19 5.22 3.69 4.67 3.39 5.08 4.05",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      6.05,
+      5.39,
+      5.72,
+      6.09,
+      5.68,
+      5.88,
+      5.36,
+      5.9,
+      5.66
+    ],
+    "reference_month": "2022-12"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Jan. 2023 (Prov.) Dec. 2022 (Final) Jan. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 6.85 6.00 6.52 6.05 5.39 5.72 6.12 5.91 6.01 CFPI 6.65 4.79 5.94 5.05 2.80 4.19 5.18 5.88 5.43 Index CPI (General) 177.8 174.9 176.5 177.1 174.1 175.7 166.4 165.0 165.7 CFPI 173.3 177.3 174.7 172.8 176.5 174.1 162.5 169.2 164.9",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      6.85,
+      6.0,
+      6.52,
+      6.05,
+      5.39,
+      5.72,
+      6.12,
+      5.91,
+      6.01
+    ],
+    "reference_month": "2023-01"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Feb. 2023 (Prov.) Jan. 2023 (Final) Feb. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 6.72 6.10 6.44 6.85 6.00 6.52 6.38 5.75 6.07 CFPI 6.60 5.09 5.95 6.65 4.85 6.00 5.81 5.76 5.85 Index CPI (General) 177.9 175.6 176.8 177.8 174.9 176.5 166.7 165.5 166.1 CFPI 172.9 177.4 174.4 173.3 177.4 174.8 162.2 168.8 164.6",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      6.72,
+      6.1,
+      6.44,
+      6.85,
+      6.0,
+      6.52,
+      6.38,
+      5.75,
+      6.07
+    ],
+    "reference_month": "2023-02"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Mar. 2023 (Prov.) Feb. 2023 (Final) Mar. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.51 5.89 5.66 6.72 6.10 6.44 7.66 6.12 6.95 CFPI 4.66 4.82 4.79 6.60 5.09 5.95 8.04 7.04 7.68 Index CPI (General) 178.0 176.3 177.2 177.9 175.6 176.8 168.7 166.5 167.7 CFPI 172.9 178.4 174.9 172.9 177.4 174.4 165.2 170.2 166.9",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.51,
+      5.89,
+      5.66,
+      6.72,
+      6.1,
+      6.44,
+      7.66,
+      6.12,
+      6.95
+    ],
+    "reference_month": "2023-03"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Apr. 2023 (Prov.) Mar. 2023 (Final) Apr. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 4.68 4.85 4.70 5.51 5.89 5.66 8.38 7.09 7.79 CFPI 3.83 3.69 3.84 4.72 4.82 4.79 8.50 8.09 8.31 Index CPI (General) 178.8 177.4 178.1 178.0 176.3 177.2 170.8 169.2 170.1 CFPI 173.6 180.0 175.9 173.0 178.4 174.9 167.2 173.6 169.4",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      4.68,
+      4.85,
+      4.7,
+      5.51,
+      5.89,
+      5.66,
+      8.38,
+      7.09,
+      7.79
+    ],
+    "reference_month": "2023-04"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "May. 2023 (Prov.) Apr. 2023 (Final) May. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 4.17 4.27 4.25 4.68 4.85 4.70 7.08 7.08 7.04 CFPI 3.19 2.43 2.91 3.89 3.69 3.84 7.76 8.20 7.97 Index CPI (General) 179.7 178.1 179.0 178.8 177.4 178.1 172.5 170.8 171.7 CFPI 174.9 181.1 177.1 173.7 180.0 175.9 169.5 176.8 172.1",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      4.17,
+      4.27,
+      4.25,
+      4.68,
+      4.85,
+      4.7,
+      7.08,
+      7.08,
+      7.04
+    ],
+    "reference_month": "2023-05"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Jun. 2023 (Prov.) May. 2023 (Final) Jun. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 4.72 4.96 4.81 4.23 4.33 4.31 7.09 6.86 7.01 CFPI 4.56 4.31 4.49 3.30 2.43 2.96 7.61 8.04 7.75 Index CPI (General) 181.8 179.9 180.9 179.8 178.2 179.1 173.6 171.4 172.6 CFPI 179.0 186.4 181.6 175.1 181.1 177.2 171.2 178.7 173.8",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      4.72,
+      4.96,
+      4.81,
+      4.23,
+      4.33,
+      4.31,
+      7.09,
+      6.86,
+      7.01
+    ],
+    "reference_month": "2023-06"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Jul. 2023 (Prov.) Jun. 2023 (Final) Jul. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 7.63 7.20 7.44 4.78 4.96 4.87 6.80 6.49 6.71 CFPI 11.04 12.32 11.51 4.67 4.31 4.55 6.73 6.69 6.69 Index CPI (General) 187.6 184.7 186.3 181.9 179.9 181.0 174.3 172.3 173.4 CFPI 190.1 200.6 193.8 179.2 186.4 181.7 171.2 178.6 173.8",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      7.63,
+      7.2,
+      7.44,
+      4.78,
+      4.96,
+      4.87,
+      6.8,
+      6.49,
+      6.71
+    ],
+    "reference_month": "2023-07"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Aug. 2023 (Prov.) Jul. 2023 (Final) Aug. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 7.02 6.59 6.83 7.63 7.20 7.44 7.15 6.72 7.00 CFPI 9.67 10.42 9.94 11.04 12.37 11.51 7.60 7.55 7.62 Index CPI (General) 187.6 184.5 186.2 187.6 184.7 186.3 175.3 173.1 174.3 CFPI 189.4 198.2 192.5 190.1 200.7 193.8 172.7 179.5 175.1",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      7.02,
+      6.59,
+      6.83,
+      7.63,
+      7.2,
+      7.44,
+      7.15,
+      6.72,
+      7.0
+    ],
+    "reference_month": "2023-08"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Sep. 2023 (Prov.) Aug. 2023 (Final) Sep. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.33 4.65 5.02 7.02 6.59 6.83 7.56 7.27 7.41 CFPI 6.65 6.35 6.56 9.67 10.42 9.94 8.53 8.77 8.60 Index CPI (General) 185.8 182.2 184.1 187.6 184.5 186.2 176.4 174.1 175.3 CFPI 186.0 192.5 188.3 189.4 198.2 192.5 174.4 181.0 176.7",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.33,
+      4.65,
+      5.02,
+      7.02,
+      6.59,
+      6.83,
+      7.56,
+      7.27,
+      7.41
+    ],
+    "reference_month": "2023-09"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Oct. 2023 (Prov.) Sep. 2023 (Final) Oct. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.12 4.62 4.87 5.33 4.65 5.02 6.98 6.50 6.77 CFPI 6.58 6.63 6.61 6.71 6.35 6.62 7.30 6.53 7.01 Index CPI (General) 187.0 183.4 185.3 185.8 182.2 184.1 177.9 175.3 176.7 CFPI 188.0 194.7 190.4 186.1 192.5 188.4 176.4 182.6 178.6",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.12,
+      4.62,
+      4.87,
+      5.33,
+      4.65,
+      5.02,
+      6.98,
+      6.5,
+      6.77
+    ],
+    "reference_month": "2023-10"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Nov. 2023 (Prov.) Oct. 2023 (Final) Nov. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.85 5.26 5.55 5.12 4.62 4.87 6.09 5.68 5.88 CFPI 8.38 9.28 8.70 6.63 6.63 6.61 5.22 3.69 4.67 Index CPI (General) 188.2 184.2 186.3 187.0 183.4 185.3 177.8 175.0 176.5 CFPI 190.1 196.7 192.4 188.1 194.7 190.4 175.4 180.0 177.0",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.85,
+      5.26,
+      5.55,
+      5.12,
+      4.62,
+      4.87,
+      6.09,
+      5.68,
+      5.88
+    ],
+    "reference_month": "2023-11"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Dec. 2023 (Prov.) Nov. 2023 (Final) Dec. 2022 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.93 5.46 5.69 5.85 5.26 5.55 6.05 5.39 5.72 CFPI 8.97 10.42 9.53 8.38 9.33 8.70 5.05 2.80 4.19 Index CPI (General) 187.6 183.6 185.7 188.2 184.2 186.3 177.1 174.1 175.7 CFPI 188.3 194.9 190.7 190.1 196.8 192.4 172.8 176.5 174.1",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.93,
+      5.46,
+      5.69,
+      5.85,
+      5.26,
+      5.55,
+      6.05,
+      5.39,
+      5.72
+    ],
+    "reference_month": "2023-12"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Jan. 2024 (Prov.) Dec. 2023 (Final) Jan. 2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.34 4.92 5.10 5.93 5.46 5.69 6.85 6.00 6.52 CFPI 7.91 9.02 8.30 9.03 10.42 9.53 6.65 4.85 6.00 Index CPI (General) 187.3 183.5 185.5 187.6 183.6 185.7 177.8 174.9 176.5 CFPI 187.0 193.4 189.3 188.4 194.9 190.7 173.3 177.4 174.8",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.34,
+      4.92,
+      5.1,
+      5.93,
+      5.46,
+      5.69,
+      6.85,
+      6.0,
+      6.52
+    ],
+    "reference_month": "2024-01"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Feb. 2024 (Prov.) Jan. 2024 (Final) Feb. 2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.34 4.78 5.09 5.34 4.92 5.10 6.72 6.10 6.44 CFPI 8.21 9.19 8.66 7.91 9.02 8.30 6.60 5.09 5.95 Index CPI (General) 187.4 184.0 185.8 187.3 183.5 185.5 177.9 175.6 176.8 CFPI 187.1 193.7 189.5 187.0 193.4 189.3 172.9 177.4 174.4",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.34,
+      4.78,
+      5.09,
+      5.34,
+      4.92,
+      5.1,
+      6.72,
+      6.1,
+      6.44
+    ],
+    "reference_month": "2024-02"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Mar. 2024 (Prov.) Feb. 2024 (Final) Mar. 2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.45 4.14 4.85 5.34 4.78 5.09 5.51 5.89 5.66 CFPI 8.61 8.35 8.52 8.27 9.19 8.66 4.72 4.82 4.79 Index CPI (General) 187.7 183.6 185.8 187.4 184.0 185.8 178.0 176.3 177.2 CFPI 187.9 193.3 189.8 187.2 193.7 189.5 173.0 178.4 174.9",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.45,
+      4.14,
+      4.85,
+      5.34,
+      4.78,
+      5.09,
+      5.51,
+      5.89,
+      5.66
+    ],
+    "reference_month": "2024-03"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "Apr. 2024 (Prov.) Mar. 2024 (Final) Apr. 2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.43 4.11 4.83 5.51 4.14 4.85 4.68 4.85 4.70 CFPI 8.75 8.56 8.70 8.55 8.41 8.52 3.89 3.69 3.84 Index CPI (General) 188.5 184.7 186.7 187.8 183.6 185.8 178.8 177.4 178.1 CFPI 188.9 195.4 191.2 187.8 193.4 189.8 173.7 180.0 175.9",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.43,
+      4.11,
+      4.83,
+      5.51,
+      4.14,
+      4.85,
+      4.68,
+      4.85,
+      4.7
+    ],
+    "reference_month": "2024-04"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[1]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "May 2024 (Prov.) Apr. 2024 (Final) May 2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.28 4.15 4.75 5.43 4.11 4.83 4.23 4.33 4.31 CFPI 8.62 8.83 8.69 8.75 8.56 8.70 3.30 2.43 2.96 Index CPI (General) 189.3 185.6 187.6 188.5 184.7 186.7 179.8 178.2 179.1 CFPI 190.2 197.1 192.6 188.9 195.4 191.2 175.1 181.1 177.2",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.28,
+      4.15,
+      4.75,
+      5.43,
+      4.11,
+      4.83,
+      4.23,
+      4.33,
+      4.31
+    ],
+    "reference_month": "2024-05"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "June 2024 (Prov.) May 2024 (Final) June 2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.66 4.39 5.08 5.34 4.21 4.80 4.78 4.96 4.87 CFPI 9.15 9.55 9.36 8.62 8.83 8.69 4.67 4.31 4.55 Index CPI (General) 192.2 187.8 190.2 189.4 185.7 187.7 181.9 179.9 181.0 CFPI 195.6 204.2 198.7 190.2 197.1 192.6 179.2 186.4 181.7",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.66,
+      4.39,
+      5.08,
+      5.34,
+      4.21,
+      4.8,
+      4.78,
+      4.96,
+      4.87
+    ],
+    "reference_month": "2024-06"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "July 2024 (Prov.) June 2024 (Final) July 2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 4.10 2.98 3.54 5.66 4.39 5.08 7.63 7.20 7.44 CFPI 5.89 4.63 5.42 9.15 9.6 9.36 11.04 12.37 11.51 Index CPI (General) 195.3 190.2 192.9 192.2 187.8 190.2 187.6 184.7 186.3 CFPI 201.3 210 204.3 195.6 204.3 198.7 190.1 200.7 193.8",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      4.1,
+      2.98,
+      3.54,
+      5.66,
+      4.39,
+      5.08,
+      7.63,
+      7.2,
+      7.44
+    ],
+    "reference_month": "2024-07"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "August 2024 (Prov.) July 2024 (Final) August2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 4.16 3.14 3.65 4.10 3.03 3.60 7.02 6.59 6.83 CFPI 6.02 4.99 5.66 5.89 4.63 5.42 9.67 10.42 9.94 Index CPI (General) 195.4 190.3 193.0 195.3 190.3 193.0 187.6 184.5 186.2 CFPI 200.8 208.1 203.4 201.3 210.0 204.3 189.4 198.2 192.5",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      4.16,
+      3.14,
+      3.65,
+      4.1,
+      3.03,
+      3.6,
+      7.02,
+      6.59,
+      6.83
+    ],
+    "reference_month": "2024-08"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "September 2024 (Prov.) August 2024 (Final) September2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.87 5.05 5.49 4.16 3.14 3.65 5.33 4.65 5.02 CFPI 9.08 9.56 9.24 6.02 4.99 5.66 6.71 6.35 6.62 Index CPI (General) 196.7 191.4 194.2 195.4 190.3 193.0 185.8 182.2 184.1 CFPI 203.0 210.9 205.8 200.8 208.1 203.4 186.1 192.5 188.4",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.87,
+      5.05,
+      5.49,
+      4.16,
+      3.14,
+      3.65,
+      5.33,
+      4.65,
+      5.02
+    ],
+    "reference_month": "2024-09"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "October 2024 (Prov.) September 2024 (Final) October2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 6.68 5.62 6.21 5.87 5.05 5.49 5.12 4.62 4.87 CFPI 10.69 11.09 10.87 9.08 9.56 9.24 6.63 6.63 6.61 Index CPI (General) 199.5 193.7 196.8 196.7 191.4 194.2 187.0 183.4 185.3 CFPI 208.2 216.3 211.1 203.0 210.9 205.8 188.1 194.7 190.4",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      6.68,
+      5.62,
+      6.21,
+      5.87,
+      5.05,
+      5.49,
+      5.12,
+      4.62,
+      4.87
+    ],
+    "reference_month": "2024-10"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "November 2024 (Prov.) October 2024 (Final) November 2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.95 4.83 5.48 6.68 5.62 6.21 5.85 5.26 5.55 CFPI 9.10 8.74 9.04 10.69 11.09 10.87 8.38 9.33 8.70 Index CPI (General) 199.4 193.1 196.5 199.5 193.7 196.8 188.2 184.2 186.3 CFPI 207.4 214.0 209.8 208.2 216.3 211.1 190.1 196.8 192.4",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.95,
+      4.83,
+      5.48,
+      6.68,
+      5.62,
+      6.21,
+      5.85,
+      5.26,
+      5.55
+    ],
+    "reference_month": "2024-11"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "December 2024 (Prov.) November 2024 (Final) December 2023 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 5.76 4.58 5.22 5.95 4.89 5.48 5.93 5.46 5.69 CFPI 8.65 7.90 8.39 9.10 8.74 9.04 9.03 10.42 9.53 Index CPI (General) 198.4 192.0 195.4 199.4 193.2 196.5 187.6 183.6 185.7 CFPI 204.7 210.3 206.7 207.4 214.0 209.8 188.4 194.9 190.7",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      5.76,
+      4.58,
+      5.22,
+      5.95,
+      4.89,
+      5.48,
+      5.93,
+      5.46,
+      5.69
+    ],
+    "reference_month": "2024-12"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "January 2025 (Prov.) December 2024 (Final) January 2024 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 4.64 3.87 4.31 5.76 4.58 5.22 5.34 4.92 5.10 CFPI 6.31 5.53 6.02 8.65 7.9 8.39 7.91 9.02 8.30 Index CPI (General) 196.0 190.6 193.5 198.4 192.0 195.4 187.3 183.5 185.5 CFPI 198.8 204.1 200.7 204.7 210.3 206.7 187.0 193.4 189.3",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      4.64,
+      3.87,
+      4.31,
+      5.76,
+      4.58,
+      5.22,
+      5.34,
+      4.92,
+      5.1
+    ],
+    "reference_month": "2025-01"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "February, 2025 (Prov.) January, 2025 (Final) February, 2024 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 3.79 3.32 3.61 4.59 3.87 4.26 5.34 4.78 5.09 CFPI 4.06 3.20 3.75 6.31 5.53 5.97 8.27 9.19 8.66 Index CPI (General) 194.5 190.1 192.5 195.9 190.6 193.4 187.4 184.0 185.8 CFPI 194.8 199.9 196.6 198.8 204.1 200.6 187.2 193.7 189.5",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      3.79,
+      3.32,
+      3.61,
+      4.59,
+      3.87,
+      4.26,
+      5.34,
+      4.78,
+      5.09
+    ],
+    "reference_month": "2025-02"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "March, 2025 (Prov.) February, 2025 (Final) March, 2024 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 3.25 3.43 3.34 3.79 3.32 3.61 5.51 4.14 4.85 CFPI 2.82 2.48 2.69 4.06 3.15 3.75 8.55 8.41 8.52 Index CPI (General) 193.9 189.9 192.0 194.5 190.1 192.5 187.8 183.6 185.8 CFPI 193.1 198.2 194.9 194.8 199.8 196.6 187.8 193.4 189.8",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      3.25,
+      3.43,
+      3.34,
+      3.79,
+      3.32,
+      3.61,
+      5.51,
+      4.14,
+      4.85
+    ],
+    "reference_month": "2025-03"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "April, 2025 (Prov.) March, 2025 (Final) April, 2024 (Final) Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 2.92 3.36 3.16 3.25 3.43 3.34 5.43 4.11 4.83 CFPI 1.85 1.64 1.78 2.82 2.48 2.69 8.75 8.56 8.70 Index CPI (General) 194.0 190.9 192.6 193.9 189.9 192.0 188.5 184.7 186.7 CFPI 192.4 198.6 194.6 193.1 198.2 194.9 188.9 195.4 191.2",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      2.92,
+      3.36,
+      3.16,
+      3.25,
+      3.43,
+      3.34,
+      5.43,
+      4.11,
+      4.83
+    ],
+    "reference_month": "2025-04"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "May, 2025 (Prov.) April, 2025 (Final) May, 2024 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 2.59 3.07 2.82 2.92 3.36 3.16 5.34 4.21 4.80 CFPI 0.95 0.96 0.99 1.85 1.64 1.78 8.62 8.83 8.69 Index CPI (General) 194.3 191.4 193.0 194.0 190.9 192.6 189.4 185.7 187.7 CFPI 192.0 199.0 194.5 192.4 198.6 194.6 190.2 197.1 192.6",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      2.59,
+      3.07,
+      2.82,
+      2.92,
+      3.36,
+      3.16,
+      5.34,
+      4.21,
+      4.8
+    ],
+    "reference_month": "2025-05"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "June, 2025 (Prov.) May, 2025 (Final) June, 2024 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 1.72 2.56 2.10 2.59 3.12 2.82 5.66 4.39 5.08 CFPI -0.92 -1.22 -1.06 0.95 1.01 0.99 9.15 9.60 9.36 Index CPI (General) 195.5 192.6 194.2 194.3 191.5 193.0 192.2 187.8 190.2 CFPI 193.8 201.8 196.6 192.0 199.1 194.5 195.6 204.3 198.7",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      1.72,
+      2.56,
+      2.1,
+      2.59,
+      3.12,
+      2.82,
+      5.66,
+      4.39,
+      5.08
+    ],
+    "reference_month": "2025-06"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "July, 2025 (Prov.) June, 2025 (Final) July, 2024 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 1.18 2.05 1.55 1.72 2.56 2.10 4.10 3.03 3.60 CFPI -1.74 -1.90 -1.76 -0.87 -1.17 -1.01 5.89 4.63 5.42 Index CPI (General) 197.6 194.2 196.0 195.5 192.6 194.2 195.3 190.3 193.0 CFPI 197.8 206.0 200.7 193.9 201.9 196.7 201.3 210.0 204.3",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      1.18,
+      2.05,
+      1.55,
+      1.72,
+      2.56,
+      2.1,
+      4.1,
+      3.03,
+      3.6
+    ],
+    "reference_month": "2025-07"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "August, 2025 (Prov.) July, 2025 (Final) August, 2024 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 1.69 2.47 2.07 1.18 2.10 1.61 4.16 3.14 3.65 CFPI -0.70 -0.58 -0.69 -1.74 -1.90 -1.76 6.02 4.99 5.66 Index CPI (General) 198.7 195.0 197.0 197.6 194.3 196.1 195.4 190.3 193.0 CFPI 199.4 206.9 202.0 197.8 206.0 200.7 200.8 208.1 203.4",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      1.69,
+      2.47,
+      2.07,
+      1.18,
+      2.1,
+      1.61,
+      4.16,
+      3.14,
+      3.65
+    ],
+    "reference_month": "2025-08"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "September, 2025 (Prov.) August, 2025 (Final) September, 2024 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 1.07 2.04 1.54 1.69 2.47 2.07 5.87 5.05 5.49 CFPI -2.17 -2.47 -2.28 -0.70 -0.53 -0.64 9.08 9.56 9.24 Index CPI (General) 198.8 195.3 197.2 198.7 195.0 197.0 196.7 191.4 194.2 CFPI 198.6 205.7 201.1 199.4 207.0 202.1 203.0 210.9 205.8",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      1.07,
+      2.04,
+      1.54,
+      1.69,
+      2.47,
+      2.07,
+      5.87,
+      5.05,
+      5.49
+    ],
+    "reference_month": "2025-09"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "October, 2025 (Prov.) September, 2025 (Final) October, 2024 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) -0.25 0.88 0.25 1.07 1.83 1.44 6.68 5.62 6.21 CFPI -4.85 -5.18 -5.02 -2.22 -2.47 -2.33 10.69 11.09 10.87 Index CPI (General) 199.0 195.4 197.3 198.8 194.9 197.0 199.5 193.7 196.8 CFPI 198.1 205.1 200.5 198.5 205.7 201.0 208.2 216.3 211.1",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      -0.25,
+      0.88,
+      0.25,
+      1.07,
+      1.83,
+      1.44,
+      6.68,
+      5.62,
+      6.21
+    ],
+    "reference_month": "2025-10"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "November, 2025 (Prov.) October, 2025 (Final) November, 2024 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 0.10 1.40 0.71 -0.25 0.88 0.25 5.95 4.89 5.48 CFPI -4.05 -3.60 -3.91 -4.85 -5.18 -5.02 9.10 8.74 9.04 Index CPI (General) 199.6 195.9 197.9 199.0 195.4 197.3 199.4 193.2 196.5 CFPI 199.0 206.3 201.6 198.1 205.1 200.5 207.4 214.0 209.8",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      0.1,
+      1.4,
+      0.71,
+      -0.25,
+      0.88,
+      0.25,
+      5.95,
+      4.89,
+      5.48
+    ],
+    "reference_month": "2025-11"
+  },
+  {
+    "chosen_row": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+    "duplicate_equivalent_rows": 2,
+    "header_excerpt": "December, 2025 (Prov.) November, 2025 (Final) December, 2024 Rural Urban Combd. Rural Urban Combd. Rural Urban Combd. Inflation CPI (General) 0.76 2.03 1.33 0.10 1.40 0.71 5.76 4.58 5.22 CFPI -3.08 -2.09 -2.71 -4.05 -3.60 -3.91 8.65 7.90 8.39 Index CPI (General) 199.9 195.9 198.0 199.6 195.9 197.9 198.4 192.0 195.4 CFPI 198.4 205.9 201.1 199.0 206.3 201.6 204.7 210.3 206.7",
+    "numbers_rural_urban_combined_for_current_previous_prior_year": [
+      0.76,
+      2.03,
+      1.33,
+      0.1,
+      1.4,
+      0.71,
+      5.76,
+      4.58,
+      5.22
+    ],
+    "reference_month": "2025-12"
+  }
+]

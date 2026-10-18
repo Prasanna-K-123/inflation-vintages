@@ -1,0 +1,12 @@
+{
+  "all_checks_passed": true,
+  "all_hindsight_lags_after_cutoff": true,
+  "all_lags_before_cutoff": true,
+  "guarded_hashes_before_after": 11,
+  "last_old_base_final_auxiliary_row_verified": true,
+  "public_release": false,
+  "scored_first_release_targets": 18,
+  "seed": 20261017,
+  "selection_changed_after_test": false,
+  "source_cells_verified": 89
+}

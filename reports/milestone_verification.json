@@ -1,0 +1,11 @@
+{
+  "all_asof_inputs_available_before_cutoff": true,
+  "all_final_forecast_rows_verified": 18,
+  "checks_passed": true,
+  "final_errors_computed": false,
+  "future_revision_invariance_all18rows": true,
+  "official_pdf_html_reconciliations": 5,
+  "scope": "Audit, baselines and bounded development comparison/freeze only; final evaluation/report/release gates remain open",
+  "source_model_freeze_hashes": 11,
+  "unit_tests": 7
+}

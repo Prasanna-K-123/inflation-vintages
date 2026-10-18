@@ -1,0 +1,434 @@
+[
+  {
+    "first_provisional": 6.01,
+    "previous_month_final": 5.66,
+    "prior_year_as_reported": 4.06,
+    "published_at": "2022-02-14T17:32:00+05:30",
+    "reference_month": "2022-01",
+    "source_sha256": "694ad1ae0a7709d806612fe7e6963defc149c6383323536c19ceb7f214aa73ee",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1798312&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 6.07,
+    "previous_month_final": 6.01,
+    "prior_year_as_reported": 5.03,
+    "published_at": "2022-03-14T17:30:00+05:30",
+    "reference_month": "2022-02",
+    "source_sha256": "8debc709fe52af326d2d7bd488855fc1225c93d5a552d290cc22148036a61016",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1805838&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 6.95,
+    "previous_month_final": 6.07,
+    "prior_year_as_reported": 5.52,
+    "published_at": "2022-04-12T17:30:00+05:30",
+    "reference_month": "2022-03",
+    "source_sha256": "c549c8cf422e781a8ce00cbec46af1e729fb1923d17d5740f80a0a6f019a2994",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1816066&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 7.79,
+    "previous_month_final": 6.95,
+    "prior_year_as_reported": 4.23,
+    "published_at": "2022-05-12T17:30:00+05:30",
+    "reference_month": "2022-04",
+    "source_sha256": "6abaf1dcd2791052c04d3adfe38a91b5cd3e2b7a995b9f5e9060d66d80b32b2b",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1824772&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 7.04,
+    "previous_month_final": 7.79,
+    "prior_year_as_reported": 6.3,
+    "published_at": "2022-06-13T17:30:00+05:30",
+    "reference_month": "2022-05",
+    "source_sha256": "986a1a2aa22beca1a75ffe3d8986eaca4e6bba88c52610c753ba88c0aa6d291f",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1833536&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 7.01,
+    "previous_month_final": 7.04,
+    "prior_year_as_reported": 6.26,
+    "published_at": "2022-07-12T17:30:00+05:30",
+    "reference_month": "2022-06",
+    "source_sha256": "afed0bdd709415f03e3fffc1969d3b60562ee33cc226587f956d12113057c170",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1840945&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 6.71,
+    "previous_month_final": 7.01,
+    "prior_year_as_reported": 5.59,
+    "published_at": "2022-08-12T17:30:00+05:30",
+    "reference_month": "2022-07",
+    "source_sha256": "cc8d92132afcd68b2fa792d190167a6f898a722d0eb943f0b085d63c030d51db",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1851273&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 7.0,
+    "previous_month_final": 6.71,
+    "prior_year_as_reported": 5.3,
+    "published_at": "2022-09-12T17:30:00+05:30",
+    "reference_month": "2022-08",
+    "source_sha256": "b8082bde4b8c6a5a1e22136ca01ee0816679c39746fcb24c7f32a2bbf493b5fa",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1858724&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 7.41,
+    "previous_month_final": 7.0,
+    "prior_year_as_reported": 4.35,
+    "published_at": "2022-10-12T17:30:00+05:30",
+    "reference_month": "2022-09",
+    "source_sha256": "f206d95a19cacdb07c74c9a0de3f9283866a8736e283acb31d816f90b2582401",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1867095&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 6.77,
+    "previous_month_final": 7.41,
+    "prior_year_as_reported": 4.48,
+    "published_at": "2022-11-14T17:30:00+05:30",
+    "reference_month": "2022-10",
+    "source_sha256": "64acab024f7e0006719e012cc2bcd243d6d74ef71c2aef6097f4c2146f7e7bc1",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1875824&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.88,
+    "previous_month_final": 6.77,
+    "prior_year_as_reported": 4.91,
+    "published_at": "2022-12-12T17:30:00+05:30",
+    "reference_month": "2022-11",
+    "source_sha256": "91c41a42e88d9eaaf54773e45b1cfd205ea46742b5df2496a3f771328cc8c657",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1882801&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.72,
+    "previous_month_final": 5.88,
+    "prior_year_as_reported": 5.66,
+    "published_at": "2023-01-12T17:30:00+05:30",
+    "reference_month": "2022-12",
+    "source_sha256": "9d1f96a97982cb0ed2b9133a11c50d502765aee2f57ec22938e144c6701419c2",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1890750&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 6.52,
+    "previous_month_final": 5.72,
+    "prior_year_as_reported": 6.01,
+    "published_at": "2023-02-13T17:30:00+05:30",
+    "reference_month": "2023-01",
+    "source_sha256": "41c6a15cfda5c6885c65dad0275f6d1ee660d64ed0098675c43cac9082f6ab9a",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1898820&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 6.44,
+    "previous_month_final": 6.52,
+    "prior_year_as_reported": 6.07,
+    "published_at": "2023-03-13T17:30:00+05:30",
+    "reference_month": "2023-02",
+    "source_sha256": "2c2cb2840a92e6bb83837fef8f5af0fe177c84c4a553570d7c0624dae111432d",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1906436&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.66,
+    "previous_month_final": 6.44,
+    "prior_year_as_reported": 6.95,
+    "published_at": "2023-04-12T17:47:00+05:30",
+    "reference_month": "2023-03",
+    "source_sha256": "bb121d0a79e0120f916b6daf1ba5c9f8535c721704c2e533d30a0a0507d171e3",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1915936&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 4.7,
+    "previous_month_final": 5.66,
+    "prior_year_as_reported": 7.79,
+    "published_at": "2023-05-12T17:30:00+05:30",
+    "reference_month": "2023-04",
+    "source_sha256": "0c374279ef8e8a28e904b41c10a73eb2ee509081948f19ed4fe9195658c8949b",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1923709&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 4.25,
+    "previous_month_final": 4.7,
+    "prior_year_as_reported": 7.04,
+    "published_at": "2023-06-12T17:30:00+05:30",
+    "reference_month": "2023-05",
+    "source_sha256": "c9b2b27ac0d938181fa0d97c099aef2e59e61a57c4ba8239c677ae3ff1e24779",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1931707&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 4.81,
+    "previous_month_final": 4.31,
+    "prior_year_as_reported": 7.01,
+    "published_at": "2023-07-12T17:30:00+05:30",
+    "reference_month": "2023-06",
+    "source_sha256": "a6a437c42645c201cfcc8909373f86de1ee9f2b53249c8fe121884961cbfde18",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1938980&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 7.44,
+    "previous_month_final": 4.87,
+    "prior_year_as_reported": 6.71,
+    "published_at": "2023-08-14T17:30:00+05:30",
+    "reference_month": "2023-07",
+    "source_sha256": "78d838ab37933d9fa34db4b5e6b1a15c4f246c621bb8f2dfba6ab4de1fbbbfbb",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1948574&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 6.83,
+    "previous_month_final": 7.44,
+    "prior_year_as_reported": 7.0,
+    "published_at": "2023-09-12T17:30:00+05:30",
+    "reference_month": "2023-08",
+    "source_sha256": "7fdc5b311df0d6e64ada3dc8b9526e9f96f64245a8c380e2317fd26580466d8f",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1956659&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.02,
+    "previous_month_final": 6.83,
+    "prior_year_as_reported": 7.41,
+    "published_at": "2023-10-12T17:30:00+05:30",
+    "reference_month": "2023-09",
+    "source_sha256": "f9f09dd52bd4b607f7bef814ad8a16b2cb4ec1020ea2b9a052349185bbff6862",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1967118&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 4.87,
+    "previous_month_final": 5.02,
+    "prior_year_as_reported": 6.77,
+    "published_at": "2023-11-13T17:30:00+05:30",
+    "reference_month": "2023-10",
+    "source_sha256": "62ee5ea573dfdbfddab9f41dc2997b568fcaf512a5be001cd324a45f4fe8a57c",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1976688&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.55,
+    "previous_month_final": 4.87,
+    "prior_year_as_reported": 5.88,
+    "published_at": "2023-12-12T17:30:00+05:30",
+    "reference_month": "2023-11",
+    "source_sha256": "44a283a02e754fc09d311fed29fe11389cf9d9db315f2b56ffc3e43fe87733d9",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1985492&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.69,
+    "previous_month_final": 5.55,
+    "prior_year_as_reported": 5.72,
+    "published_at": "2024-01-12T17:30:00+05:30",
+    "reference_month": "2023-12",
+    "source_sha256": "bee8f2b3c6598c030345edc541678dbb0601ef4fd391037d2ffaf6057d81c301",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1995548&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.1,
+    "previous_month_final": 5.69,
+    "prior_year_as_reported": 6.52,
+    "published_at": "2024-02-12T17:30:00+05:30",
+    "reference_month": "2024-01",
+    "source_sha256": "461681e1d2ef650a772ac7a82c8e666979bd35674447fc5ce81391f9ce0ac9bd",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2005313&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.09,
+    "previous_month_final": 5.1,
+    "prior_year_as_reported": 6.44,
+    "published_at": "2024-03-12T17:30:00+05:30",
+    "reference_month": "2024-02",
+    "source_sha256": "cc148a9d0787c2dbb4ad2ebf4ad25bc4449e8d0174f9a2d5944b68ad288017cb",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2013793&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 4.85,
+    "previous_month_final": 5.09,
+    "prior_year_as_reported": 5.66,
+    "published_at": "2024-04-12T18:10:00+05:30",
+    "reference_month": "2024-03",
+    "source_sha256": "48a8239c90730569f2fe32fc575231d305e3a5a2a90ee950ce594c9685d0b83e",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2017771&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 4.83,
+    "previous_month_final": 4.85,
+    "prior_year_as_reported": 4.7,
+    "published_at": "2024-05-13T17:30:00+05:30",
+    "reference_month": "2024-04",
+    "source_sha256": "98f47e63b5e835af424329a26ca7bc4c66da807bf872325ebe111abfdbfc4a5f",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2020447&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 4.75,
+    "previous_month_final": 4.83,
+    "prior_year_as_reported": 4.31,
+    "published_at": "2024-06-12T17:30:00+05:30",
+    "reference_month": "2024-05",
+    "source_sha256": "12c38f4073953a42e6cad808ccd6086c004862aed1d8b864af57a9727f2b7d82",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2024761&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.08,
+    "previous_month_final": 4.8,
+    "prior_year_as_reported": 4.87,
+    "published_at": "2024-07-12T17:30:00+05:30",
+    "reference_month": "2024-06",
+    "source_sha256": "2ccc552eabe3fa7733d10674a0f5b368e0d66b5d3c39a0cdde6b1de85d69c76e",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2032780&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 3.54,
+    "previous_month_final": 5.08,
+    "prior_year_as_reported": 7.44,
+    "published_at": "2024-08-12T17:30:00+05:30",
+    "reference_month": "2024-07",
+    "source_sha256": "c33f23f8f750cfa660df57fe6817cfab9f7ca14cd4aff30fd981269414622ce5",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2044604&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 3.65,
+    "previous_month_final": 3.6,
+    "prior_year_as_reported": 6.83,
+    "published_at": "2024-09-12T17:30:00+05:30",
+    "reference_month": "2024-08",
+    "source_sha256": "4848e65c07d605bbc25af68fb99dfd4ce476841e705bc6734def5a80fc88abc6",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2054203&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.49,
+    "previous_month_final": 3.65,
+    "prior_year_as_reported": 5.02,
+    "published_at": "2024-10-14T17:30:00+05:30",
+    "reference_month": "2024-09",
+    "source_sha256": "ead2fa9d8a1eb7c6eccc70f0e3fd2c1062845931ba4f1a225ee0299bc1d44f97",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2064700&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 6.21,
+    "previous_month_final": 5.49,
+    "prior_year_as_reported": 4.87,
+    "published_at": "2024-11-12T16:00:00+05:30",
+    "reference_month": "2024-10",
+    "source_sha256": "15a4f390546f75a4f300e4979791b2d3e39f69cfa4a2b48119349356355931b7",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2072719&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.48,
+    "previous_month_final": 6.21,
+    "prior_year_as_reported": 5.55,
+    "published_at": "2024-12-12T16:00:00+05:30",
+    "reference_month": "2024-11",
+    "source_sha256": "e4416720b104dace808c336bb40539de3f39ce63d08e4decda520c342ef2e0de",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2083704&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 5.22,
+    "previous_month_final": 5.48,
+    "prior_year_as_reported": 5.69,
+    "published_at": "2025-01-13T16:00:00+05:30",
+    "reference_month": "2024-12",
+    "source_sha256": "1730730db4064f63d69be0cc98445ec5cd0de1e0f76b925174ea596e60580373",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2092477&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 4.31,
+    "previous_month_final": 5.22,
+    "prior_year_as_reported": 5.1,
+    "published_at": "2025-02-12T16:00:00+05:30",
+    "reference_month": "2025-01",
+    "source_sha256": "5aba3a5fd7e85e4d1b174dbaa34cd748d8699ec317b39d7019126117da317866",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2102267&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 3.61,
+    "previous_month_final": 4.26,
+    "prior_year_as_reported": 5.09,
+    "published_at": "2025-03-12T16:00:00+05:30",
+    "reference_month": "2025-02",
+    "source_sha256": "9e81d21300c51f9c23242c14d50641d16856341983b625f763d7564e04897ece",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2110779&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 3.34,
+    "previous_month_final": 3.61,
+    "prior_year_as_reported": 4.85,
+    "published_at": "2025-04-15T16:00:00+05:30",
+    "reference_month": "2025-03",
+    "source_sha256": "c5cecf0a8fc16ba76941703368188720cc8485160ae7a11bddcea5199822aeb6",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2121843&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 3.16,
+    "previous_month_final": 3.34,
+    "prior_year_as_reported": 4.83,
+    "published_at": "2025-05-13T16:00:00+05:30",
+    "reference_month": "2025-04",
+    "source_sha256": "b8d886f3f40a63cdf47f52b3f269a15f691156ded21b97dae84a65dbca38e3be",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128387&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 2.82,
+    "previous_month_final": 3.16,
+    "prior_year_as_reported": 4.8,
+    "published_at": "2025-06-12T16:00:00+05:30",
+    "reference_month": "2025-05",
+    "source_sha256": "874e6e0d6c5e9fd0bad35ec08c22e5e51579fbc564cb34b061bd1f6fe245dc64",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2135927&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 2.1,
+    "previous_month_final": 2.82,
+    "prior_year_as_reported": 5.08,
+    "published_at": "2025-07-14T16:00:00+05:30",
+    "reference_month": "2025-06",
+    "source_sha256": "33e0126cac13151507180e2b42f59df9f56c8ab61b902f74dc6ea8c3674816b0",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2144511&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 1.55,
+    "previous_month_final": 2.1,
+    "prior_year_as_reported": 3.6,
+    "published_at": "2025-08-12T16:00:00+05:30",
+    "reference_month": "2025-07",
+    "source_sha256": "00bcb5dcb584db322915993d1798e312ea634ae6c559fb17a52d2f0f373a8d87",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2155476&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 2.07,
+    "previous_month_final": 1.61,
+    "prior_year_as_reported": 3.65,
+    "published_at": "2025-09-12T16:00:00+05:30",
+    "reference_month": "2025-08",
+    "source_sha256": "80e91f2e2d57bb53c7f7536f0d957e56b85a52a15681306dad56201794c66f20",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2165974&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 1.54,
+    "previous_month_final": 2.07,
+    "prior_year_as_reported": 5.49,
+    "published_at": "2025-10-13T16:00:00+05:30",
+    "reference_month": "2025-09",
+    "source_sha256": "404327c4a50b80c520bb4cea41bc2d7aa3223fcfad7cee49f72473d496898e3b",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2178447&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 0.25,
+    "previous_month_final": 1.44,
+    "prior_year_as_reported": 6.21,
+    "published_at": "2025-11-12T16:00:00+05:30",
+    "reference_month": "2025-10",
+    "source_sha256": "b8f828d68a7a317b020d899fe3c786140265a4dba10e44a67208acaafb7db021",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2189186&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 0.71,
+    "previous_month_final": 0.25,
+    "prior_year_as_reported": 5.48,
+    "published_at": "2025-12-12T16:00:00+05:30",
+    "reference_month": "2025-11",
+    "source_sha256": "5b0f33d080720d2c86b21c1647ec65918e77eca0767a3c0ab403167ad2fcafa2",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2202940&lang=2&reg=3"
+  },
+  {
+    "first_provisional": 1.33,
+    "previous_month_final": 0.71,
+    "prior_year_as_reported": 5.22,
+    "published_at": "2026-01-12T16:00:00+05:30",
+    "reference_month": "2025-12",
+    "source_sha256": "c57b62b41f906309dfc3ce7dac929560d92702c297ef8a5f8b909a3d66c901a0",
+    "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2213736&lang=2&reg=3"
+  }
+]

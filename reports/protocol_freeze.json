@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "PROTOCOL.md": "603ec2f99bb61dd1c0b3bc49efbd40b7462c292d114d57a70a94e64acacf3265",
+    "data/processed/releases.json": "19400b1ffeb3a55a323737f13d559db49f027dfed61082ecd91ac1444a8f0379",
+    "data/processed/vintages.json": "9ff804cceabd31625f6c0aef276ce9bcf340668f2c5e30d8c0d816dcd5ad07a6",
+    "data/source_manifest.json": "79c6a1a6fbb10d89fb74be28b586a9ed227b00f49d2361ad6b2d644d1849088a",
+    "scripts/build_vintages.py": "586448ac25878b8646c70fa8649379bf36c9d5d5f42ebc3813ab974872b03627",
+    "scripts/train_and_freeze.py": "ce06abb0998c31fe4290e765d2669e0de187956a9875c0174445a28b292a9270",
+    "src/inflation_vintages/core.py": "e9a2150dbe08711a10858d88b95472bde393cb35bf156f3835062cc8d7a0c25a"
+  },
+  "status": "Frozen before model fit/development evaluation; final errors not computed"
+}

@@ -1,0 +1,11 @@
+{
+  "identity": "Ridge error = (last release minus target) + (Ridge prediction minus last release)",
+  "interpretation": "Arithmetic, not causal attribution. Components may offset; cross term can be negative.",
+  "mean_ar1_error_pp": 1.4052703154687234,
+  "mean_lag_error_pp": 0.20833333333333334,
+  "mean_model_adjustment_pp": 1.19693698213539,
+  "mse_cross_component": 0.2383432991059117,
+  "mse_lag_component": 0.6699722222222222,
+  "mse_model_adjustment_component": 1.9481805147667401,
+  "mse_total": 2.856496036094874
+}

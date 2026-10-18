@@ -1,0 +1,47 @@
+{
+  "source": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2227012&lang=2&reg=3",
+  "source_sha256": "d89e27f918033c42474bd1930a2f1cfa224bfb2d8f3d03ab6b2a167d99f34fa1",
+  "rows": [
+    {
+      "cells": [
+        "Inflation (%)",
+        "CPI (General)",
+        "2.73",
+        "2.77",
+        "2.75"
+      ],
+      "xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]"
+    },
+    {
+      "cells": [
+        "Inflation (%)",
+        "CPI (General)",
+        "0.76",
+        "2.03",
+        "1.33"
+      ],
+      "xpath": "/html/body/form/div[2]/div[2]/div[7]/table/tbody/tr[3]"
+    },
+    {
+      "cells": [
+        "Inflation (%)",
+        "CPI (General)",
+        "2.73",
+        "2.77",
+        "2.75"
+      ],
+      "xpath": "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+    },
+    {
+      "cells": [
+        "Inflation (%)",
+        "CPI (General)",
+        "0.76",
+        "2.03",
+        "1.33"
+      ],
+      "xpath": "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[2]/table/tbody/tr[3]"
+    }
+  ],
+  "interpretation": "Jan2026 new-base2024 provisional headline2.75; separate Dec2025 final old-base2012 headline1.33. Do not join their bases. Old-base final recorded here as auxiliary evidence, not appended to frozen144-row vintage panel."
+}

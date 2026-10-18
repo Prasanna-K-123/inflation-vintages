@@ -1,0 +1,116 @@
+[
+  {
+    "file": "audit_2022_04.pdf",
+    "matching_tables": [
+      {
+        "nine_values": [
+          8.38,
+          7.09,
+          7.79,
+          7.66,
+          6.12,
+          6.95,
+          3.75,
+          4.71,
+          4.23
+        ],
+        "page": 1
+      }
+    ],
+    "pdf_numeric_evidence_region_visually_inspected": true,
+    "reference_month": "2022-04",
+    "sha256": "53076424eddc7f5ab4b80aba2233d905359ac8441a98126612c265f14154441f",
+    "source_agreement": "Same official release in PDF and HTML, not external independent review",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/may/doc202251255501.pdf"
+  },
+  {
+    "file": "pib_Dec2023.pdf",
+    "matching_tables": [
+      {
+        "nine_values": [
+          5.93,
+          5.46,
+          5.69,
+          5.85,
+          5.26,
+          5.55,
+          6.05,
+          5.39,
+          5.72
+        ],
+        "page": 1
+      }
+    ],
+    "pdf_numeric_evidence_region_visually_inspected": true,
+    "reference_month": "2023-12",
+    "sha256": "3bcf8e64ee54e99e8fa12e5365b0ae389b5fc4e349119db7be43b9eb93c53a91",
+    "source_agreement": "Same official release in PDF and HTML, not external independent review",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/jan/doc2024112298001.pdf"
+  },
+  {
+    "file": "audit_2024_09.pdf",
+    "matching_tables": [
+      {
+        "nine_values": [
+          5.87,
+          5.05,
+          5.49,
+          4.16,
+          3.14,
+          3.65,
+          5.33,
+          4.65,
+          5.02
+        ],
+        "page": 2
+      }
+    ],
+    "pdf_numeric_evidence_region_visually_inspected": true,
+    "reference_month": "2024-09",
+    "sha256": "472d7a00b19a151964390730015412e9d4f0fd581d60e911365638c3c4e57207",
+    "source_agreement": "Same official release in PDF and HTML, not external independent review",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/oct/doc20241014416101.pdf"
+  },
+  {
+    "file": "audit_2025_07.pdf",
+    "matching_tables": [
+      {
+        "nine_values": [
+          1.18,
+          2.05,
+          1.55,
+          1.72,
+          2.56,
+          2.1,
+          4.1,
+          3.03,
+          3.6
+        ],
+        "page": 3
+      }
+    ],
+    "pdf_numeric_evidence_region_visually_inspected": true,
+    "reference_month": "2025-07",
+    "sha256": "a125f6d62e4fc15460064f06b7352edd1d8a408952a080f91b9e03ef60b50e32",
+    "source_agreement": "Same official release in PDF and HTML, not external independent review",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025812605601.pdf"
+  },
+  {
+    "file": "audit_2026_01.pdf",
+    "matching_tables": [
+      {
+        "page": 1,
+        "three_new_base_values": [
+          2.73,
+          2.77,
+          2.75
+        ]
+      }
+    ],
+    "pdf_numeric_evidence_region_visually_inspected": true,
+    "reference_month": "2026-01",
+    "sha256": "e24736867399c4af992d176ac5e6cff36d99c1401e1a6f2503e4d7eedcfd3f3f",
+    "source_agreement": "Same official release in PDF and HTML, not external independent review",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026212787501.pdf"
+  }
+]

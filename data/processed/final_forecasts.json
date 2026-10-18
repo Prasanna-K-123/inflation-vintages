@@ -1,0 +1,704 @@
+[
+  {
+    "forecast_cutoff": "2024-07-12T17:31:00+05:30",
+    "forecasts": {
+      "persistence": 5.08,
+      "ridge_ar1": 5.538674306393792,
+      "seasonal_12month": 7.44
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-07-12T17:30:00+05:30",
+      "reference_month": "2024-06",
+      "release_reference_month": "2024-06",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2032780.html",
+      "source_sha256": "2ccc552eabe3fa7733d10674a0f5b368e0d66b5d3c39a0cdde6b1de85d69c76e",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2032780&lang=2&reg=3",
+      "status": "provisional",
+      "value": 5.08
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2023-09-12T17:30:00+05:30",
+      "reference_month": "2023-07",
+      "release_reference_month": "2023-08",
+      "sector": "Combined",
+      "source_file": "data/raw/source_1956659.html",
+      "source_sha256": "7fdc5b311df0d6e64ada3dc8b9526e9f96f64245a8c380e2317fd26580466d8f",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1956659&lang=2&reg=3",
+      "status": "final",
+      "value": 7.44
+    },
+    "split": "final",
+    "target_month": "2024-07",
+    "target_publication": "2024-08-12T17:30:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2024-08-12T17:31:00+05:30",
+    "forecasts": {
+      "persistence": 3.54,
+      "ridge_ar1": 4.652287892198873,
+      "seasonal_12month": 6.83
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-08-12T17:30:00+05:30",
+      "reference_month": "2024-07",
+      "release_reference_month": "2024-07",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2044604.html",
+      "source_sha256": "c33f23f8f750cfa660df57fe6817cfab9f7ca14cd4aff30fd981269414622ce5",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2044604&lang=2&reg=3",
+      "status": "provisional",
+      "value": 3.54
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2023-10-12T17:30:00+05:30",
+      "reference_month": "2023-08",
+      "release_reference_month": "2023-09",
+      "sector": "Combined",
+      "source_file": "data/raw/source_1967118.html",
+      "source_sha256": "f9f09dd52bd4b607f7bef814ad8a16b2cb4ec1020ea2b9a052349185bbff6862",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1967118&lang=2&reg=3",
+      "status": "final",
+      "value": 6.83
+    },
+    "split": "final",
+    "target_month": "2024-08",
+    "target_publication": "2024-09-12T17:30:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2024-09-12T17:31:00+05:30",
+    "forecasts": {
+      "persistence": 3.65,
+      "ridge_ar1": 4.71560120749851,
+      "seasonal_12month": 5.02
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-09-12T17:30:00+05:30",
+      "reference_month": "2024-08",
+      "release_reference_month": "2024-08",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2054203.html",
+      "source_sha256": "4848e65c07d605bbc25af68fb99dfd4ce476841e705bc6734def5a80fc88abc6",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2054203&lang=2&reg=3",
+      "status": "provisional",
+      "value": 3.65
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2023-11-13T17:30:00+05:30",
+      "reference_month": "2023-09",
+      "release_reference_month": "2023-10",
+      "sector": "Combined",
+      "source_file": "data/raw/source_1976688.html",
+      "source_sha256": "62ee5ea573dfdbfddab9f41dc2997b568fcaf512a5be001cd324a45f4fe8a57c",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1976688&lang=2&reg=3",
+      "status": "final",
+      "value": 5.02
+    },
+    "split": "final",
+    "target_month": "2024-09",
+    "target_publication": "2024-10-14T17:30:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2024-10-14T17:31:00+05:30",
+    "forecasts": {
+      "persistence": 5.49,
+      "ridge_ar1": 5.774660299783348,
+      "seasonal_12month": 4.87
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-10-14T17:30:00+05:30",
+      "reference_month": "2024-09",
+      "release_reference_month": "2024-09",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2064700.html",
+      "source_sha256": "ead2fa9d8a1eb7c6eccc70f0e3fd2c1062845931ba4f1a225ee0299bc1d44f97",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2064700&lang=2&reg=3",
+      "status": "provisional",
+      "value": 5.49
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2023-12-12T17:30:00+05:30",
+      "reference_month": "2023-10",
+      "release_reference_month": "2023-11",
+      "sector": "Combined",
+      "source_file": "data/raw/source_1985492.html",
+      "source_sha256": "44a283a02e754fc09d311fed29fe11389cf9d9db315f2b56ffc3e43fe87733d9",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1985492&lang=2&reg=3",
+      "status": "final",
+      "value": 4.87
+    },
+    "split": "final",
+    "target_month": "2024-10",
+    "target_publication": "2024-11-12T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2024-11-12T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 6.21,
+      "ridge_ar1": 6.189074727199155,
+      "seasonal_12month": 5.55
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-11-12T16:00:00+05:30",
+      "reference_month": "2024-10",
+      "release_reference_month": "2024-10",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2072719.html",
+      "source_sha256": "15a4f390546f75a4f300e4979791b2d3e39f69cfa4a2b48119349356355931b7",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2072719&lang=2&reg=3",
+      "status": "provisional",
+      "value": 6.21
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-01-12T17:30:00+05:30",
+      "reference_month": "2023-11",
+      "release_reference_month": "2023-12",
+      "sector": "Combined",
+      "source_file": "data/raw/source_1995548.html",
+      "source_sha256": "bee8f2b3c6598c030345edc541678dbb0601ef4fd391037d2ffaf6057d81c301",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1995548&lang=2&reg=3",
+      "status": "final",
+      "value": 5.55
+    },
+    "split": "final",
+    "target_month": "2024-11",
+    "target_publication": "2024-12-12T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2024-12-12T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 5.48,
+      "ridge_ar1": 5.768904543847018,
+      "seasonal_12month": 5.69
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-12-12T16:00:00+05:30",
+      "reference_month": "2024-11",
+      "release_reference_month": "2024-11",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2083704.html",
+      "source_sha256": "e4416720b104dace808c336bb40539de3f39ce63d08e4decda520c342ef2e0de",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2083704&lang=2&reg=3",
+      "status": "provisional",
+      "value": 5.48
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-02-12T17:30:00+05:30",
+      "reference_month": "2023-12",
+      "release_reference_month": "2024-01",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2005313.html",
+      "source_sha256": "461681e1d2ef650a772ac7a82c8e666979bd35674447fc5ce81391f9ce0ac9bd",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2005313&lang=2&reg=3",
+      "status": "final",
+      "value": 5.69
+    },
+    "split": "final",
+    "target_month": "2024-12",
+    "target_publication": "2025-01-13T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-01-13T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 5.22,
+      "ridge_ar1": 5.619254889502421,
+      "seasonal_12month": 5.1
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-01-13T16:00:00+05:30",
+      "reference_month": "2024-12",
+      "release_reference_month": "2024-12",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2092477.html",
+      "source_sha256": "1730730db4064f63d69be0cc98445ec5cd0de1e0f76b925174ea596e60580373",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2092477&lang=2&reg=3",
+      "status": "provisional",
+      "value": 5.22
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-03-12T17:30:00+05:30",
+      "reference_month": "2024-01",
+      "release_reference_month": "2024-02",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2013793.html",
+      "source_sha256": "cc148a9d0787c2dbb4ad2ebf4ad25bc4449e8d0174f9a2d5944b68ad288017cb",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2013793&lang=2&reg=3",
+      "status": "final",
+      "value": 5.1
+    },
+    "split": "final",
+    "target_month": "2025-01",
+    "target_publication": "2025-02-12T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-02-12T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 4.31,
+      "ridge_ar1": 5.095481099296332,
+      "seasonal_12month": 5.09
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-02-12T16:00:00+05:30",
+      "reference_month": "2025-01",
+      "release_reference_month": "2025-01",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2102267.html",
+      "source_sha256": "5aba3a5fd7e85e4d1b174dbaa34cd748d8699ec317b39d7019126117da317866",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2102267&lang=2&reg=3",
+      "status": "provisional",
+      "value": 4.31
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-04-12T18:10:00+05:30",
+      "reference_month": "2024-02",
+      "release_reference_month": "2024-03",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2017771.html",
+      "source_sha256": "48a8239c90730569f2fe32fc575231d305e3a5a2a90ee950ce594c9685d0b83e",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2017771&lang=2&reg=3",
+      "status": "final",
+      "value": 5.09
+    },
+    "split": "final",
+    "target_month": "2025-02",
+    "target_publication": "2025-03-12T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-03-12T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 3.61,
+      "ridge_ar1": 4.692578183753188,
+      "seasonal_12month": 4.85
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-03-12T16:00:00+05:30",
+      "reference_month": "2025-02",
+      "release_reference_month": "2025-02",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2110779.html",
+      "source_sha256": "9e81d21300c51f9c23242c14d50641d16856341983b625f763d7564e04897ece",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2110779&lang=2&reg=3",
+      "status": "provisional",
+      "value": 3.61
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-05-13T17:30:00+05:30",
+      "reference_month": "2024-03",
+      "release_reference_month": "2024-04",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2020447.html",
+      "source_sha256": "98f47e63b5e835af424329a26ca7bc4c66da807bf872325ebe111abfdbfc4a5f",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2020447&lang=2&reg=3",
+      "status": "final",
+      "value": 4.85
+    },
+    "split": "final",
+    "target_month": "2025-03",
+    "target_publication": "2025-04-15T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-04-15T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 3.34,
+      "ridge_ar1": 4.5371727734722604,
+      "seasonal_12month": 4.83
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-04-15T16:00:00+05:30",
+      "reference_month": "2025-03",
+      "release_reference_month": "2025-03",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2121843.html",
+      "source_sha256": "c5cecf0a8fc16ba76941703368188720cc8485160ae7a11bddcea5199822aeb6",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2121843&lang=2&reg=3",
+      "status": "provisional",
+      "value": 3.34
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[1]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-06-12T17:30:00+05:30",
+      "reference_month": "2024-04",
+      "release_reference_month": "2024-05",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2024761.html",
+      "source_sha256": "12c38f4073953a42e6cad808ccd6086c004862aed1d8b864af57a9727f2b7d82",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2024761&lang=2&reg=3",
+      "status": "final",
+      "value": 4.83
+    },
+    "split": "final",
+    "target_month": "2025-04",
+    "target_publication": "2025-05-13T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-05-13T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 3.16,
+      "ridge_ar1": 4.433569166618309,
+      "seasonal_12month": 4.8
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-05-13T16:00:00+05:30",
+      "reference_month": "2025-04",
+      "release_reference_month": "2025-04",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2128387.html",
+      "source_sha256": "b8d886f3f40a63cdf47f52b3f269a15f691156ded21b97dae84a65dbca38e3be",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128387&lang=2&reg=3",
+      "status": "provisional",
+      "value": 3.16
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-07-12T17:30:00+05:30",
+      "reference_month": "2024-05",
+      "release_reference_month": "2024-06",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2032780.html",
+      "source_sha256": "2ccc552eabe3fa7733d10674a0f5b368e0d66b5d3c39a0cdde6b1de85d69c76e",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2032780&lang=2&reg=3",
+      "status": "final",
+      "value": 4.8
+    },
+    "split": "final",
+    "target_month": "2025-05",
+    "target_publication": "2025-06-12T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-06-12T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 2.82,
+      "ridge_ar1": 4.237873464783067,
+      "seasonal_12month": 5.08
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-06-12T16:00:00+05:30",
+      "reference_month": "2025-05",
+      "release_reference_month": "2025-05",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2135927.html",
+      "source_sha256": "874e6e0d6c5e9fd0bad35ec08c22e5e51579fbc564cb34b061bd1f6fe245dc64",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2135927&lang=2&reg=3",
+      "status": "provisional",
+      "value": 2.82
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-08-12T17:30:00+05:30",
+      "reference_month": "2024-06",
+      "release_reference_month": "2024-07",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2044604.html",
+      "source_sha256": "c33f23f8f750cfa660df57fe6817cfab9f7ca14cd4aff30fd981269414622ce5",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2044604&lang=2&reg=3",
+      "status": "final",
+      "value": 5.08
+    },
+    "split": "final",
+    "target_month": "2025-06",
+    "target_publication": "2025-07-14T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-07-14T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 2.1,
+      "ridge_ar1": 3.8234590373672614,
+      "seasonal_12month": 3.6
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-07-14T16:00:00+05:30",
+      "reference_month": "2025-06",
+      "release_reference_month": "2025-06",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2144511.html",
+      "source_sha256": "33e0126cac13151507180e2b42f59df9f56c8ab61b902f74dc6ea8c3674816b0",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2144511&lang=2&reg=3",
+      "status": "provisional",
+      "value": 2.1
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-09-12T17:30:00+05:30",
+      "reference_month": "2024-07",
+      "release_reference_month": "2024-08",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2054203.html",
+      "source_sha256": "4848e65c07d605bbc25af68fb99dfd4ce476841e705bc6734def5a80fc88abc6",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2054203&lang=2&reg=3",
+      "status": "final",
+      "value": 3.6
+    },
+    "split": "final",
+    "target_month": "2025-07",
+    "target_publication": "2025-08-12T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-08-12T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 1.55,
+      "ridge_ar1": 3.506892460869076,
+      "seasonal_12month": 3.65
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-08-12T16:00:00+05:30",
+      "reference_month": "2025-07",
+      "release_reference_month": "2025-07",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2155476.html",
+      "source_sha256": "00bcb5dcb584db322915993d1798e312ea634ae6c559fb17a52d2f0f373a8d87",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2155476&lang=2&reg=3",
+      "status": "provisional",
+      "value": 1.55
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-10-14T17:30:00+05:30",
+      "reference_month": "2024-08",
+      "release_reference_month": "2024-09",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2064700.html",
+      "source_sha256": "ead2fa9d8a1eb7c6eccc70f0e3fd2c1062845931ba4f1a225ee0299bc1d44f97",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2064700&lang=2&reg=3",
+      "status": "final",
+      "value": 3.65
+    },
+    "split": "final",
+    "target_month": "2025-08",
+    "target_publication": "2025-09-12T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-09-12T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 2.07,
+      "ridge_ar1": 3.8061917695582688,
+      "seasonal_12month": 5.49
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-09-12T16:00:00+05:30",
+      "reference_month": "2025-08",
+      "release_reference_month": "2025-08",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2165974.html",
+      "source_sha256": "80e91f2e2d57bb53c7f7536f0d957e56b85a52a15681306dad56201794c66f20",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2165974&lang=2&reg=3",
+      "status": "provisional",
+      "value": 2.07
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-11-12T16:00:00+05:30",
+      "reference_month": "2024-09",
+      "release_reference_month": "2024-10",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2072719.html",
+      "source_sha256": "15a4f390546f75a4f300e4979791b2d3e39f69cfa4a2b48119349356355931b7",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2072719&lang=2&reg=3",
+      "status": "final",
+      "value": 5.49
+    },
+    "split": "final",
+    "target_month": "2025-09",
+    "target_publication": "2025-10-13T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-10-13T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 1.54,
+      "ridge_ar1": 3.501136704932745,
+      "seasonal_12month": 6.21
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-10-13T16:00:00+05:30",
+      "reference_month": "2025-09",
+      "release_reference_month": "2025-09",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2178447.html",
+      "source_sha256": "404327c4a50b80c520bb4cea41bc2d7aa3223fcfad7cee49f72473d496898e3b",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2178447&lang=2&reg=3",
+      "status": "provisional",
+      "value": 1.54
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2024-12-12T16:00:00+05:30",
+      "reference_month": "2024-10",
+      "release_reference_month": "2024-11",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2083704.html",
+      "source_sha256": "e4416720b104dace808c336bb40539de3f39ce63d08e4decda520c342ef2e0de",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2083704&lang=2&reg=3",
+      "status": "final",
+      "value": 6.21
+    },
+    "split": "final",
+    "target_month": "2025-10",
+    "target_publication": "2025-11-12T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-11-12T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 0.25,
+      "ridge_ar1": 2.7586441891460924,
+      "seasonal_12month": 5.48
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-11-12T16:00:00+05:30",
+      "reference_month": "2025-10",
+      "release_reference_month": "2025-10",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2189186.html",
+      "source_sha256": "b8f828d68a7a317b020d899fe3c786140265a4dba10e44a67208acaafb7db021",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2189186&lang=2&reg=3",
+      "status": "provisional",
+      "value": 0.25
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-01-13T16:00:00+05:30",
+      "reference_month": "2024-11",
+      "release_reference_month": "2024-12",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2092477.html",
+      "source_sha256": "1730730db4064f63d69be0cc98445ec5cd0de1e0f76b925174ea596e60580373",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2092477&lang=2&reg=3",
+      "status": "final",
+      "value": 5.48
+    },
+    "split": "final",
+    "target_month": "2025-11",
+    "target_publication": "2025-12-12T16:00:00+05:30"
+  },
+  {
+    "forecast_cutoff": "2025-12-12T16:01:00+05:30",
+    "forecasts": {
+      "persistence": 0.71,
+      "ridge_ar1": 3.0234089622173017,
+      "seasonal_12month": 5.22
+    },
+    "lag_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[5]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-12-12T16:00:00+05:30",
+      "reference_month": "2025-11",
+      "release_reference_month": "2025-11",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2202940.html",
+      "source_sha256": "5b0f33d080720d2c86b21c1647ec65918e77eca0767a3c0ab403167ad2fcafa2",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2202940&lang=2&reg=3",
+      "status": "provisional",
+      "value": 0.71
+    },
+    "seasonal_source": {
+      "base": 2012,
+      "cell_xpath": "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]/td[8]",
+      "metric": "headline_yoy_percent",
+      "published_at": "2025-02-12T16:00:00+05:30",
+      "reference_month": "2024-12",
+      "release_reference_month": "2025-01",
+      "sector": "Combined",
+      "source_file": "data/raw/source_2102267.html",
+      "source_sha256": "5aba3a5fd7e85e4d1b174dbaa34cd748d8699ec317b39d7019126117da317866",
+      "source_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2102267&lang=2&reg=3",
+      "status": "final",
+      "value": 5.22
+    },
+    "split": "final",
+    "target_month": "2025-12",
+    "target_publication": "2026-01-12T16:00:00+05:30"
+  }
+]

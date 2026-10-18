@@ -1,0 +1,25 @@
+{
+  "current_new_base_forecast_claimed": false,
+  "final_targets": [
+    "2024-07",
+    "2025-12"
+  ],
+  "public_release_complete": false,
+  "selected_baseline": "persistence",
+  "selected_forecast": "persistence",
+  "sha256": {
+    "PROTOCOL.md": "603ec2f99bb61dd1c0b3bc49efbd40b7462c292d114d57a70a94e64acacf3265",
+    "artifacts/ar1.json": "28a0ab12dfb35aa72c4365fc583bd6362faa5b303ffe6f6106b642c7d5c37444",
+    "data/processed/final_forecasts.json": "2c2b2077d3d4987de89abb1a449671341b83f2af839c1461252cdfba6d79445c",
+    "data/processed/releases.json": "19400b1ffeb3a55a323737f13d559db49f027dfed61082ecd91ac1444a8f0379",
+    "data/processed/vintages.json": "9ff804cceabd31625f6c0aef276ce9bcf340668f2c5e30d8c0d816dcd5ad07a6",
+    "data/source_manifest.json": "79c6a1a6fbb10d89fb74be28b586a9ed227b00f49d2361ad6b2d644d1849088a",
+    "reports/development.json": "93bfa92151fd94329f829f90a0814b03d916fffde293a13efc72b8e985784592",
+    "reports/protocol_freeze.json": "2cdce8a922b6d3118a011dd28be108fc344acf69d47d61dc4ee33125aecd6dfd",
+    "scripts/build_vintages.py": "586448ac25878b8646c70fa8649379bf36c9d5d5f42ebc3813ab974872b03627",
+    "scripts/train_and_freeze.py": "ce06abb0998c31fe4290e765d2669e0de187956a9875c0174445a28b292a9270",
+    "src/inflation_vintages/core.py": "e9a2150dbe08711a10858d88b95472bde393cb35bf156f3835062cc8d7a0c25a"
+  },
+  "status": "Before final18release error evaluation",
+  "target": "First provisional Combined CPI headline YoY percent, base2012"
+}

@@ -1,0 +1,13 @@
+{
+  "written_before_first_final_score": true,
+  "seed": 20261017,
+  "bootstrap_draws": 2000,
+  "circular_block_months": 3,
+  "primary_contrast": "mean squared error Ridge AR1 minus development-selected persistence",
+  "primary_targets": "18 first-provisional releases July 2024 through December 2025",
+  "sign": "positive contrasts favour persistence; forecast error is prediction minus target",
+  "hindsight_lag": "replace previous month provisional by final published in target release, same frozen coefficients; explicitly unavailable at cutoff",
+  "later_target_diagnostic": "separate next-release final values; Dec 2025 old-base final 1.33 from pinned Feb 2026 source",
+  "selection_after_final_scoring": "none",
+  "uncertainty": "conditional block percentile interval, not a forecast prediction interval or a current-market guarantee"
+}

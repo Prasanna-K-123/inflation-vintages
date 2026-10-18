@@ -1,0 +1,284 @@
+[
+  {
+    "next_release_final": 6.01,
+    "provisional": 6.01,
+    "reference_month": "2022-01",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 6.07,
+    "provisional": 6.07,
+    "reference_month": "2022-02",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 6.95,
+    "provisional": 6.95,
+    "reference_month": "2022-03",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 7.79,
+    "provisional": 7.79,
+    "reference_month": "2022-04",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 7.04,
+    "provisional": 7.04,
+    "reference_month": "2022-05",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 7.01,
+    "provisional": 7.01,
+    "reference_month": "2022-06",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 6.71,
+    "provisional": 6.71,
+    "reference_month": "2022-07",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 7.0,
+    "provisional": 7.0,
+    "reference_month": "2022-08",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 7.41,
+    "provisional": 7.41,
+    "reference_month": "2022-09",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 6.77,
+    "provisional": 6.77,
+    "reference_month": "2022-10",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 5.88,
+    "provisional": 5.88,
+    "reference_month": "2022-11",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 5.72,
+    "provisional": 5.72,
+    "reference_month": "2022-12",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 6.52,
+    "provisional": 6.52,
+    "reference_month": "2023-01",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 6.44,
+    "provisional": 6.44,
+    "reference_month": "2023-02",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 5.66,
+    "provisional": 5.66,
+    "reference_month": "2023-03",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 4.7,
+    "provisional": 4.7,
+    "reference_month": "2023-04",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 4.31,
+    "provisional": 4.25,
+    "reference_month": "2023-05",
+    "revision_percentage_points": 0.06
+  },
+  {
+    "next_release_final": 4.87,
+    "provisional": 4.81,
+    "reference_month": "2023-06",
+    "revision_percentage_points": 0.06
+  },
+  {
+    "next_release_final": 7.44,
+    "provisional": 7.44,
+    "reference_month": "2023-07",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 6.83,
+    "provisional": 6.83,
+    "reference_month": "2023-08",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 5.02,
+    "provisional": 5.02,
+    "reference_month": "2023-09",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 4.87,
+    "provisional": 4.87,
+    "reference_month": "2023-10",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 5.55,
+    "provisional": 5.55,
+    "reference_month": "2023-11",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 5.69,
+    "provisional": 5.69,
+    "reference_month": "2023-12",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 5.1,
+    "provisional": 5.1,
+    "reference_month": "2024-01",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 5.09,
+    "provisional": 5.09,
+    "reference_month": "2024-02",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 4.85,
+    "provisional": 4.85,
+    "reference_month": "2024-03",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 4.83,
+    "provisional": 4.83,
+    "reference_month": "2024-04",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 4.8,
+    "provisional": 4.75,
+    "reference_month": "2024-05",
+    "revision_percentage_points": 0.05
+  },
+  {
+    "next_release_final": 5.08,
+    "provisional": 5.08,
+    "reference_month": "2024-06",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 3.6,
+    "provisional": 3.54,
+    "reference_month": "2024-07",
+    "revision_percentage_points": 0.06
+  },
+  {
+    "next_release_final": 3.65,
+    "provisional": 3.65,
+    "reference_month": "2024-08",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 5.49,
+    "provisional": 5.49,
+    "reference_month": "2024-09",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 6.21,
+    "provisional": 6.21,
+    "reference_month": "2024-10",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 5.48,
+    "provisional": 5.48,
+    "reference_month": "2024-11",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 5.22,
+    "provisional": 5.22,
+    "reference_month": "2024-12",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 4.26,
+    "provisional": 4.31,
+    "reference_month": "2025-01",
+    "revision_percentage_points": -0.05
+  },
+  {
+    "next_release_final": 3.61,
+    "provisional": 3.61,
+    "reference_month": "2025-02",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 3.34,
+    "provisional": 3.34,
+    "reference_month": "2025-03",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 3.16,
+    "provisional": 3.16,
+    "reference_month": "2025-04",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 2.82,
+    "provisional": 2.82,
+    "reference_month": "2025-05",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 2.1,
+    "provisional": 2.1,
+    "reference_month": "2025-06",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 1.61,
+    "provisional": 1.55,
+    "reference_month": "2025-07",
+    "revision_percentage_points": 0.06
+  },
+  {
+    "next_release_final": 2.07,
+    "provisional": 2.07,
+    "reference_month": "2025-08",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 1.44,
+    "provisional": 1.54,
+    "reference_month": "2025-09",
+    "revision_percentage_points": -0.1
+  },
+  {
+    "next_release_final": 0.25,
+    "provisional": 0.25,
+    "reference_month": "2025-10",
+    "revision_percentage_points": 0.0
+  },
+  {
+    "next_release_final": 0.71,
+    "provisional": 0.71,
+    "reference_month": "2025-11",
+    "revision_percentage_points": 0.0
+  }
+]

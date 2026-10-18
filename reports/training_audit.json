@@ -1,0 +1,140 @@
+[
+  {
+    "cutoff": "2022-02-14T17:33:00+05:30",
+    "first_target": 6.07,
+    "target_month": "2022-02",
+    "x_last_release": 6.01
+  },
+  {
+    "cutoff": "2022-03-14T17:31:00+05:30",
+    "first_target": 6.95,
+    "target_month": "2022-03",
+    "x_last_release": 6.07
+  },
+  {
+    "cutoff": "2022-04-12T17:31:00+05:30",
+    "first_target": 7.79,
+    "target_month": "2022-04",
+    "x_last_release": 6.95
+  },
+  {
+    "cutoff": "2022-05-12T17:31:00+05:30",
+    "first_target": 7.04,
+    "target_month": "2022-05",
+    "x_last_release": 7.79
+  },
+  {
+    "cutoff": "2022-06-13T17:31:00+05:30",
+    "first_target": 7.01,
+    "target_month": "2022-06",
+    "x_last_release": 7.04
+  },
+  {
+    "cutoff": "2022-07-12T17:31:00+05:30",
+    "first_target": 6.71,
+    "target_month": "2022-07",
+    "x_last_release": 7.01
+  },
+  {
+    "cutoff": "2022-08-12T17:31:00+05:30",
+    "first_target": 7.0,
+    "target_month": "2022-08",
+    "x_last_release": 6.71
+  },
+  {
+    "cutoff": "2022-09-12T17:31:00+05:30",
+    "first_target": 7.41,
+    "target_month": "2022-09",
+    "x_last_release": 7.0
+  },
+  {
+    "cutoff": "2022-10-12T17:31:00+05:30",
+    "first_target": 6.77,
+    "target_month": "2022-10",
+    "x_last_release": 7.41
+  },
+  {
+    "cutoff": "2022-11-14T17:31:00+05:30",
+    "first_target": 5.88,
+    "target_month": "2022-11",
+    "x_last_release": 6.77
+  },
+  {
+    "cutoff": "2022-12-12T17:31:00+05:30",
+    "first_target": 5.72,
+    "target_month": "2022-12",
+    "x_last_release": 5.88
+  },
+  {
+    "cutoff": "2023-01-12T17:31:00+05:30",
+    "first_target": 6.52,
+    "target_month": "2023-01",
+    "x_last_release": 5.72
+  },
+  {
+    "cutoff": "2023-02-13T17:31:00+05:30",
+    "first_target": 6.44,
+    "target_month": "2023-02",
+    "x_last_release": 6.52
+  },
+  {
+    "cutoff": "2023-03-13T17:31:00+05:30",
+    "first_target": 5.66,
+    "target_month": "2023-03",
+    "x_last_release": 6.44
+  },
+  {
+    "cutoff": "2023-04-12T17:48:00+05:30",
+    "first_target": 4.7,
+    "target_month": "2023-04",
+    "x_last_release": 5.66
+  },
+  {
+    "cutoff": "2023-05-12T17:31:00+05:30",
+    "first_target": 4.25,
+    "target_month": "2023-05",
+    "x_last_release": 4.7
+  },
+  {
+    "cutoff": "2023-06-12T17:31:00+05:30",
+    "first_target": 4.81,
+    "target_month": "2023-06",
+    "x_last_release": 4.25
+  },
+  {
+    "cutoff": "2023-07-12T17:31:00+05:30",
+    "first_target": 7.44,
+    "target_month": "2023-07",
+    "x_last_release": 4.81
+  },
+  {
+    "cutoff": "2023-08-14T17:31:00+05:30",
+    "first_target": 6.83,
+    "target_month": "2023-08",
+    "x_last_release": 7.44
+  },
+  {
+    "cutoff": "2023-09-12T17:31:00+05:30",
+    "first_target": 5.02,
+    "target_month": "2023-09",
+    "x_last_release": 6.83
+  },
+  {
+    "cutoff": "2023-10-12T17:31:00+05:30",
+    "first_target": 4.87,
+    "target_month": "2023-10",
+    "x_last_release": 5.02
+  },
+  {
+    "cutoff": "2023-11-13T17:31:00+05:30",
+    "first_target": 5.55,
+    "target_month": "2023-11",
+    "x_last_release": 4.87
+  },
+  {
+    "cutoff": "2023-12-12T17:31:00+05:30",
+    "first_target": 5.69,
+    "target_month": "2023-12",
+    "x_last_release": 5.55
+  }
+]

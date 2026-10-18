@@ -1,0 +1,20 @@
+{
+  "accepted_archive_months": 48,
+  "all_source_hashes_checked": true,
+  "base2012_first_release_range": [
+    "2022-01",
+    "2025-12"
+  ],
+  "duplicate_equivalent_source_rows_collapsed": 48,
+  "forecast_metrics_computed": false,
+  "input_use": "Official public statistical releases used as attributed research sources; no third-party raw-data relicensing",
+  "limitation": "Publication-dated reconstructed vintages, not immutable contemporaneously archived snapshots",
+  "max_abs_revision_percentage_points": 0.1,
+  "missing_months": 0,
+  "new_base_2024_separate": true,
+  "provisional_final_changes": 7,
+  "publication_time_zone": "IST +05:30; conservative PIB timestamp",
+  "reference_or_base_conflicts": 0,
+  "source_documents": 49,
+  "vintage_records": 144
+}

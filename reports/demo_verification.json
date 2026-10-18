@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "embedded_evidence_matches_source": true,
+  "release_method_target_views": 108,
+  "hindsight_views": 18,
+  "aggregate_metrics_match_saved_Python": true,
+  "asof_and_unavailable_revision_timing_checked": true,
+  "hindsight_disabled_for_other_methods": true,
+  "reset_verified": true,
+  "execution": "Actual inline JavaScript in Node VM with minimal DOM. Not rendered browser/mobile/keyboard verification.",
+  "browser_verified": false,
+  "public_release_complete": false
+}
