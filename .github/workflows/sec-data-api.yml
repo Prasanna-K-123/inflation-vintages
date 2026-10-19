@@ -1,0 +1,23 @@
+name: Documented SEC data API source intake
+on:
+  push:
+    branches: [public-source-intake-20261019]
+    paths:
+      - .github/workflows/sec-data-api.yml
+      - supporting/sec_data_api/**
+permissions:
+  contents: read
+concurrency:
+  group: sec-data-api-20261019
+  cancel-in-progress: false
+jobs:
+  documented-public-data-api:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Request fixed issuer API snapshots and stop on access denial
+        run: python3 supporting/sec_data_api/fetch_data_api.py
