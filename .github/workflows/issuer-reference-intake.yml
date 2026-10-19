@@ -1,0 +1,23 @@
+name: Official issuer reference intake
+on:
+  push:
+    branches: [public-source-intake-20261019]
+    paths:
+      - .github/workflows/issuer-reference-intake.yml
+      - supporting/issuer_reference_intake/**
+permissions:
+  contents: read
+concurrency:
+  group: issuer-reference-intake-20261019
+  cancel-in-progress: false
+jobs:
+  original-issuer-reference-documents:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Download three fixed official Microsoft reference documents
+        run: python3 supporting/issuer_reference_intake/fetch_msft_reference.py
