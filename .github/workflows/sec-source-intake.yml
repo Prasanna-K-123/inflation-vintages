@@ -1,0 +1,23 @@
+name: SEC public-source research intake
+on:
+  push:
+    branches: [public-source-intake-20261019]
+    paths:
+      - .github/workflows/sec-source-intake.yml
+      - supporting/sec_source_intake/**
+permissions:
+  contents: read
+concurrency:
+  group: sec-public-source-intake-20261019
+  cancel-in-progress: false
+jobs:
+  sec-public-json:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Download only the nine fixed issuer snapshots through public APIs
+        run: python3 supporting/sec_source_intake/fetch_sec.py
