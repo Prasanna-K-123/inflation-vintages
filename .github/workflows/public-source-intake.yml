@@ -1,0 +1,23 @@
+name: Public-source research intake
+on:
+  push:
+    branches: [public-source-intake-20261019]
+    paths:
+      - .github/workflows/public-source-intake.yml
+      - supporting/public_source_intake/**
+permissions:
+  contents: read
+concurrency:
+  group: public-source-intake-20261019
+  cancel-in-progress: false
+jobs:
+  federal-reserve-source:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Download the published Federal Reserve research CSV once
+        run: python3 supporting/public_source_intake/fetch_fed.py
