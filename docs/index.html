@@ -11,10 +11,18 @@
 el('month').innerHTML=rows.map(r=>`<option value="${r.target_month}">${r.target_month}</option>`).join('');
 function prediction(row,method,hindsight){return hindsight&&method==='ridge_ar1'?row.hindsight_ar1_prediction:row.forecasts[method];}
 function metric(method,target,hindsight){const errors=rows.map(r=>prediction(r,method,hindsight)-(target==='later'?r.later_final_target:r.first_provisional_actual));return{mae:errors.reduce((a,v)=>a+Math.abs(v),0)/errors.length,rmse:Math.sqrt(errors.reduce((a,v)=>a+v*v,0)/errors.length),bias:errors.reduce((a,v)=>a+v,0)/errors.length};}
-function chart(method,target,hindsight,index){const actual=rows.map(r=>target==='later'?r.later_final_target:r.first_provisional_actual),forecast=rows.map(r=>prediction(r,method,hindsight)),max=Math.max(...actual,...forecast)*1.12,w=700,h=245,x=i=>45+i*36.2,y=v=>204-v/max*165;
-let svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}"><line x1="45" y1="204" x2="675" y2="204" stroke="#a8bac3"/><text x="12" y="22" font-size="12">CPI YoY (%)</text><line x1="${x(index)}" y1="36" x2="${x(index)}" y2="204" stroke="#9e7137" stroke-dasharray="4 4"/>`;
-for(const [values,color] of [[actual,'#173c58'],[forecast,'#318076']]){svg+=`<polyline fill="none" stroke="${color}" stroke-width="2.5" points="${values.map((v,i)=>x(i)+','+y(v)).join(' ')}"/>`;svg+=`<circle cx="${x(index)}" cy="${y(values[index])}" r="5" fill="${color}"/>`;}
-for(let i=0;i<rows.length;i+=3)svg+=`<text x="${x(i)}" y="228" font-size="11" text-anchor="middle">${rows[i].target_month}</text>`;return svg+'</svg>';}
+function chart(method,target,hindsight,index){
+ const actual=rows.map(r=>target==='later'?r.later_final_target:r.first_provisional_actual),forecast=rows.map(r=>prediction(r,method,hindsight));
+ const max=Math.max(...actual,...forecast)*1.12,w=Math.max(220,Math.min(700,el('forecast-chart').clientWidth||700)),h=245;
+ const x=i=>45+i*(w-73)/(rows.length-1),y=v=>204-v/max*165;
+ let svg='<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CPI year-on-year inflation in percent: displayed forecast and target across all 18 held-out dates" viewBox="0 0 '+w+' '+h+'"><text x="12" y="22" font-size="12">CPI YoY (%)</text>';
+ for(const v of [0,max/2,max]){const yp=y(v);svg+='<line x1="40" y1="'+yp+'" x2="'+(w-25)+'" y2="'+yp+'" stroke="#e0e8ec"/><text x="32" y="'+(yp+4)+'" font-size="11" text-anchor="end">'+v.toFixed(1)+'</text>';}
+ svg+='<line x1="'+x(index)+'" y1="36" x2="'+x(index)+'" y2="204" stroke="#9e7137" stroke-dasharray="4 4"/>';
+ for(const [values,color] of [[actual,'#173c58'],[forecast,'#318076']]){svg+='<polyline fill="none" stroke="'+color+'" stroke-width="2.5" points="'+values.map((v,i)=>x(i)+','+y(v)).join(' ')+'"/><circle cx="'+x(index)+'" cy="'+y(values[index])+'" r="5" fill="'+color+'"/>';}
+ const ticks=Math.max(2,Math.floor((w-73)/85)+1);
+ for(let j=0;j<ticks;j++){const i=Math.round(j*(rows.length-1)/(ticks-1));svg+='<text x="'+x(i)+'" y="228" font-size="11" text-anchor="middle">'+rows[i].target_month+'</text>';}
+ return svg+'</svg>';
+}
 function render(){const method=el('method').value,target=el('target').value,index=rows.findIndex(r=>r.target_month===el('month').value),row=rows[index];
 el('hindsight').disabled=method!=='ridge_ar1';if(method!=='ridge_ar1')el('hindsight').checked=false;const hindsight=el('hindsight').checked&&method==='ridge_ar1';
 const forecast=prediction(row,method,hindsight),actual=target==='later'?row.later_final_target:row.first_provisional_actual,m=metric(method,target,hindsight);
@@ -26,5 +34,5 @@ const source=method==='seasonal_12month'?row.seasonal_source:row.lag_source;el('
 el('revision').textContent='Later-final previous-month value: '+num(row.hindsight_lag_final.value)+'%. AR(1) forecast change from leaking it: '+num(row.hindsight_minus_honest_prediction_pp,6)+' pp.';
 el('revision-date').textContent='That revision was published '+row.hindsight_lag_final.published_at+', after the forecast cutoff. Later-final target: '+num(row.later_final_target)+'%. The two revision diagnostics answer separate questions.';}
 function reset(){el('month').value='2025-12';el('method').value='persistence';el('target').value='first';el('hindsight').checked=false;render();}
-for(const id of ['month','method','target','hindsight'])el(id).addEventListener('change',render);el('reset').addEventListener('click',reset);reset();window.P6Demo={data,prediction,metric,render,reset};})();
+for(const id of ['month','method','target','hindsight'])el(id).addEventListener('change',render);el('reset').addEventListener('click',reset);let resizeFrame=0;if(typeof window.addEventListener==='function')window.addEventListener('resize',()=>{cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(render);});reset();window.P6Demo={data,prediction,metric,render,reset};})();
 </script></body></html>
