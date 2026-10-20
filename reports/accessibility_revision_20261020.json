@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-20",
+  "change": "Darker #526876 text for the footer and inactive hindsight label. Generated evidence/report HTML rebuilt with the same data.",
+  "before_contrast_ratios": {
+    "footer_on_page_background": 4.0924399752511125,
+    "inactive_label_on_white": 3.4642236934134205
+  },
+  "no_numeric_or_javascript_changes": true,
+  "scientific_freeze_hashes_unchanged": 11,
+  "live_verification_pending": true
+}

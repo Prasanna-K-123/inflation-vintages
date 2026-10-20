@@ -4,10 +4,10 @@
   "local_links": 6,
   "form_controls_with_static_accessible_names": 4,
   "html_hashes": {
-    "index.html": "e7b5fcc1c4861bae720baabccd791d953b808a302528e407a2209d7de3511d06",
-    "exports/forecast_brief.html": "ac1c8838fba0a7c3a165b5388e1a7c3cdd1c2ce8e2d8642fa2e9b6aac8d193de",
-    "exports/protocol.html": "cc97951c779f517c32ffbc22aafa1e0121d0510d1a496387696e1bf08a832a45",
-    "exports/research_paper.html": "5782e30ed0a5c112eec04e7971d3a5d01a058627b70a099b114dbcb215e1e995"
+    "index.html": "71691d2a7dfeff09c43ce135281d8d7664fc7bb08a3d9ca405eb912087e915fc",
+    "exports/forecast_brief.html": "85606ce9de2442d35543119c44bd61b79c0388f190a89cc638de1132c853310b",
+    "exports/protocol.html": "d9a02d846ce80a1d01a3814278563e453f8f9ef816aa711621254e180fcef219",
+    "exports/research_paper.html": "446f355c15b13b3227ce4e8a939fb4274ad9087270cc8bbf36a115dcf6c54de6"
   },
   "scope": "Static local-file resolution, headings, duplicate ids and form labels. Not browser rendering, keyboard, mobile, screen-reader or live-site verification.",
   "browser_verified": false,

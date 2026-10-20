@@ -59,3 +59,12 @@ python scripts/verify_demo_links.py
 ```
 
 The checks execute the actual page script against the saved Python results and verify local links, page headings and form labels. They do not establish rendered browser, mobile, keyboard or live-site behaviour. Actual desktop, 375/320-pixel browser, keyboard and live-link checks are recorded separately in [the release record](docs/RELEASE.md).
+
+## 20 October maintenance
+
+The [parser dependency revision](reports/dependency_revision_20261020.json) replaces
+the old PDF parser with pypdf 6.21.1 after five official PDF/HTML cross-checks,
+all seven boundary tests and the public numeric reproduction passed. Original
+environment pins are retained for research history. The
+[accessibility revision](reports/accessibility_revision_20261020.json) improves
+text contrast without changing the study or its forecasts.

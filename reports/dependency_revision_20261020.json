@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-20",
+  "package": "pypdf",
+  "previous_version": "6.10.0",
+  "patched_version": "6.21.1",
+  "original_requirements_preserved": "reproducibility/requirements-original.txt",
+  "reason": "Current upstream advisories affect the old PDF parser. Update is isolated from frozen scientific code and forecasts.",
+  "source": "https://github.com/py-pdf/pypdf/releases/tag/6.21.1",
+  "verification": {
+    "python_boundary_tests_passed": 7,
+    "official_pdf_html_reconciliations": 5,
+    "source_pdf_hashes_checked_before_read": 5,
+    "model_freeze_hashes_unchanged": 11,
+    "numeric_freeze_hashes_checked": 10,
+    "frozen_final_forecasts_reconstructed": 54,
+    "ridge_training_coefficients_reproduced": true,
+    "paired_interval_reproduced": true,
+    "direct_package_advisory_scan_packages": 19,
+    "direct_package_advisory_scan_known_vulnerabilities": 0
+  },
+  "scope": "Synthetic/unit checks, published numeric reconstruction and five pinned official PDF source cross-checks in an isolated patched Python 3.12 environment. No scientific refitting, chronology or model-choice change."
+}
