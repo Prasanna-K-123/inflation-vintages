@@ -7,5 +7,12 @@
   },
   "no_numeric_or_javascript_changes": true,
   "scientific_freeze_hashes_unchanged": 11,
-  "live_verification_pending": true
+  "live_verification_pending": false,
+  "verified_at": "2026-10-20T14:43:02.446Z",
+  "live_verification": {
+    "opaqueTextContrastNodes": 38,
+    "contrastCandidates": [],
+    "ar1CheckboxEnables": true,
+    "resetCompleted": true
+  }
 }
