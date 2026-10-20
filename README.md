@@ -1,8 +1,14 @@
 # Indian CPI release vintages
 
+[![Public research checks](https://github.com/Prasanna-K-123/inflation-vintages/actions/workflows/verify.yml/badge.svg)](https://github.com/Prasanna-K-123/inflation-vintages/actions/workflows/verify.yml)
+
 A publication-aware economic research pipeline for old-base Combined headline CPI inflation. It separates first provisional values from later final and prior-year observations and refuses to join the 2026 base revision into a cosmetic rescaling.
 
 The archive contains 48 official releases and 144 vintage observations, with fixed models, an 18-release final evaluation, a research paper and a dated two-page brief. Persistence final RMSE is 0.8185 pp versus fixed AR(1) 1.6901. Retain the already selected simple baseline. See [research paper](reports/RESEARCH_PAPER.md), [PDF paper](output/pdf/P6_Inflation_Research_Paper.pdf) and [two-page brief](output/pdf/P6_December_2025_Forecast_Brief.pdf). The [live explorer](https://prasanna-k-123.github.io/inflation-vintages/) has passed desktop, 375/320-pixel layout, native keyboard and PDF-download checks. No current inflation forecast is claimed.
+
+## Automated public checks
+
+The automated checks run on public files without private data, credentials or model refitting. They include unit tests, explorer arithmetic and the public numeric reproduction. Original-document re-audit is separate.
 
 ## Reproduce numeric results from the public checkout
 
@@ -38,7 +44,7 @@ The source manifest pins document bytes; local cached files are not silently red
 
 ## Sources and limits
 
-Official PIB/MoSPI public statistical releases are attributed in each observation, with exact table cell XPath, original document hash and IST publication timestamp. Acquisition deliberately avoids replacing unavailable legacy Mo SPI PDFs with third-party numeric summaries. Independent PDF/HTML agreement is documentary verification, not external independent review.
+Official PIB/MoSPI public statistical releases are attributed in each observation, with exact table cell XPath, original document hash and IST publication timestamp. Acquisition deliberately avoids replacing unavailable legacy MoSPI PDFs with third-party numeric summaries. Independent PDF/HTML agreement is documentary verification, not external independent review.
 
 These are publication-dated reconstructed vintages retrieved later, not immutable historic snapshots. Training 23 pairs and development 6 releases are small samples. New-base 2024 history/backcasts published 2026 cannot be used at 2025 cutoffs. Government source content is not relicensed under a future code license. No personal investment or monetary-policy recommendation follows from these forecasts.
 
