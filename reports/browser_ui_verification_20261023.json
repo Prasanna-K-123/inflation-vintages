@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "source_commit": "319c71c4be31c2f000ca113a988803e717f451a9",
+  "browser": "Cloud Chrome",
+  "native_checks_passed": true,
+  "native_checks": {
+    "all_18_table_rows": true,
+    "diagnostic_warning_and_caption": true,
+    "reset_defaults": true,
+    "keyboard_scroll_region_focus": true,
+    "dark_focus_outline": true
+  },
+  "observations": {
+    "diagnostic": {
+      "caption": "Fixed Ridge AR(1) \u00b7 Later-final diagnostic target \u00b7 Unavailable-lag hindsight diagnostic. Errors are forecast minus target.",
+      "focus": "hindsight",
+      "rows": 18,
+      "selected": "2024-07 (selected month)5.5393.600+1.939",
+      "status": "2024-07. Fixed Ridge AR(1). Later-final diagnostic target. Forecast 5.539 percent; target 3.600 percent; error 1.939 percentage points. Unavailable-lag hindsight diagnostic; not an available forecast."
+    },
+    "reset": {
+      "captionTop": 72.109375,
+      "focusedRole": "region",
+      "hindsightChecked": false,
+      "hindsightDisabled": true,
+      "method": "persistence",
+      "month": "2025-12",
+      "outline": "rgb(24, 90, 123)",
+      "status": "2025-12. Persistence. First-provisional primary target. Forecast 0.710 percent; target 1.330 percent; error -0.620 percentage points.",
+      "target": "first"
+    }
+  },
+  "viewport_views": [
+    {
+      "project": "inflation-vintages",
+      "requestedCssWidth": 320,
+      "captionCount": 1,
+      "documentWidth": 305,
+      "layoutWidth": 305,
+      "overflowRegions": [
+        {
+          "contentWidth": 312,
+          "id": "",
+          "label": "forecast-table-caption",
+          "tabindex": "0",
+          "width": 235
+        }
+      ],
+      "tableCount": 1,
+      "title": "CPI release vintages | Prasanna K",
+      "passed": true
+    },
+    {
+      "project": "inflation-vintages",
+      "requestedCssWidth": 390,
+      "captionCount": 1,
+      "documentWidth": 375,
+      "layoutWidth": 375,
+      "overflowRegions": [
+        {
+          "contentWidth": 312,
+          "id": "",
+          "label": "forecast-table-caption",
+          "tabindex": "0",
+          "width": 305
+        }
+      ],
+      "tableCount": 1,
+      "title": "CPI release vintages | Prasanna K",
+      "passed": true
+    },
+    {
+      "project": "inflation-vintages",
+      "requestedCssWidth": 1200,
+      "captionCount": 1,
+      "documentWidth": 1185,
+      "layoutWidth": 1185,
+      "overflowRegions": [],
+      "tableCount": 1,
+      "title": "CPI release vintages | Prasanna K",
+      "passed": true
+    }
+  ],
+  "http_html_matches_reviewed_source": true,
+  "delivered_html_sha256": "cb9b149ce08a2a8abf09519ba67caea967e2d12967738c66a6de92e222cde217",
+  "scope": "Native browser controls and DOM/AX observations; three CSS iframe widths. This is project-authored verification, not external review, screen-reader testing, phone/touch certification or a new other-engine run."
+}
