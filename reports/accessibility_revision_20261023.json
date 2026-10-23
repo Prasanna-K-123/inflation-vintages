@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "baseline": "7d033e3fdc25cb678f3107941d7fee011e5636c2",
+  "findings": [
+    "Chart values lack an accessible all-month table",
+    "No concise result announcement after control changes",
+    "Keyboard outline has 2.505:1 contrast against white"
+  ],
+  "changes": [
+    "Expandable semantic table for every held-out month; selected month marked; descriptive caption and focusable horizontal-scroll region",
+    "Concise polite result status and hindsight warning; checkbox linked to its explanation",
+    "Solid target and dashed forecast distinguish chart series independently of colour",
+    "Dark-blue keyboard outline with increased contrast"
+  ],
+  "script_checks": {
+    "normal_views": 108,
+    "hindsight_views": 18,
+    "table_rows": 2268,
+    "same_embedded_scientific_evidence": true
+  },
+  "python_tests": 7,
+  "numeric_reproduction": "Published model coefficients, 54 forecasts, metrics and paired interval pass; no fresh raw-document audit claimed.",
+  "protected_files_checked": 10,
+  "protected_files_byte_identical": true,
+  "scope": "Local source, exact embedded app, DOM model and numeric/build controls. Native browser, viewport and assistive-technology observations are separate; no screen-reader or universal accessibility certification."
+}

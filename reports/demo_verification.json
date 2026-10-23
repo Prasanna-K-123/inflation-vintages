@@ -7,6 +7,9 @@
   "asof_and_unavailable_revision_timing_checked": true,
   "hindsight_disabled_for_other_methods": true,
   "reset_verified": true,
+  "accessible_table_rows_checked": 2268,
+  "selected_month_status_and_diagnostic_labels_checked": true,
+  "chart_line_patterns_distinct": true,
   "execution": "Actual inline JavaScript in Node VM with minimal DOM. Not rendered browser/mobile/keyboard verification.",
   "browser_verified": false,
   "public_release_complete": false

@@ -44,6 +44,14 @@ The source manifest pins document bytes; local cached files are not silently red
 
 ## Sources and limits
 
+The chart also has an expandable table of all 18 months. Its caption identifies
+the method, target and any unavailable-lag diagnostic; the selected month is
+marked. Solid and dashed lines distinguish the plotted series. Control changes
+update a concise result status. `node tests/check_explorer.cjs` checks all 108
+normal views, 18 hindsight views and 2,268 displayed table rows against the saved
+evidence. See the [23 October accessibility revision](reports/accessibility_revision_20261023.json)
+for scope; these script checks are separate from native browser or screen-reader testing.
+
 Official PIB/MoSPI public statistical releases are attributed in each observation, with exact table cell XPath, original document hash and IST publication timestamp. Acquisition deliberately avoids replacing unavailable legacy MoSPI PDFs with third-party numeric summaries. Independent PDF/HTML agreement is documentary verification, not external independent review.
 
 These are publication-dated reconstructed vintages retrieved later, not immutable historic snapshots. Training 23 pairs and development 6 releases are small samples. New-base 2024 history/backcasts published 2026 cannot be used at 2025 cutoffs. Government source content is not relicensed under a future code license. No personal investment or monetary-policy recommendation follows from these forecasts.
