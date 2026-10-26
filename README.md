@@ -1,5 +1,7 @@
 # Indian CPI release vintages
 
+> **Supplementary study.** The current selected portfolio focuses on [operational decision systems](https://github.com/Prasanna-K-123/demand-inventory), [causal campaign decisions](https://github.com/Prasanna-K-123/causal-customer-decisions) and [credit-risk validation](https://github.com/Prasanna-K-123/credit-risk-model-validation). This study remains available as supporting work.
+
 [![Public research checks](https://github.com/Prasanna-K-123/inflation-vintages/actions/workflows/verify.yml/badge.svg)](https://github.com/Prasanna-K-123/inflation-vintages/actions/workflows/verify.yml)
 
 A publication-aware economic research pipeline for old-base Combined headline CPI inflation. It separates first provisional values from later final and prior-year observations and refuses to join the 2026 base revision into a cosmetic rescaling.
