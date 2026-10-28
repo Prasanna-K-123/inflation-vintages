@@ -117,6 +117,18 @@ environment pins are retained for research history. The
 [accessibility revision](reports/accessibility_revision_20261020.json) improves
 text contrast without changing the study or its forecasts.
 
+## 28 October dependency maintenance
+
+The current PDF parser pin is **pypdf 6.21.2**, addressing three upstream
+PDF-parsing denial-of-service advisories published on 21 October. The
+[dated verification](reports/dependency_revision_20261028.json) records 20 passing
+tests, unchanged public numeric reconstruction and all five official PDF/HTML
+cross-checks through the actual `PdfReader` path. The five PDF byte hashes were
+verified before parsing. This does not recover the separately missing original
+HTML snapshots. No scientific method, fit, forecast or source seal changed.
+Earlier environment pins are preserved as historical evidence; use the current
+requirements for new installations. The static explorer does not parse PDFs.
+
 ## Related projects
 
 Start with [operational forecasting and allocation](https://github.com/Prasanna-K-123/demand-inventory),

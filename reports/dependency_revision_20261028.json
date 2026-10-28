@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-28",
+  "package": "pypdf",
+  "previous_version": "6.21.1",
+  "patched_version": "6.21.2",
+  "reason": "Three maintainer PDF parsing denial-of-service advisories published 21 October 2026 affect the previous pin.",
+  "advisories": [
+    "https://github.com/py-pdf/pypdf/security/advisories/GHSA-6c7f-9265-g8fw",
+    "https://github.com/py-pdf/pypdf/security/advisories/GHSA-jr96-gvgh-j3r4",
+    "https://github.com/py-pdf/pypdf/security/advisories/GHSA-gmh7-3g9r-mjh5"
+  ],
+  "release": "https://github.com/py-pdf/pypdf/releases/tag/6.21.2",
+  "verification": {
+    "python": "3.12.14",
+    "unit_and_release_tests_passed": 20,
+    "public_numeric_reproduction_passed": true,
+    "frozen_forecasts_reconstructed": 54,
+    "model_source_seal_hashes_verified": 11,
+    "official_pdf_html_reconciliations": 5,
+    "official_pdf_bytes_verified_before_parse": 5,
+    "actual_script": "scripts/verify_milestone.py",
+    "model_artifact_reconstructed_from_frozen_coefficients": true,
+    "scientific_model_refit": false,
+    "source_or_method_seals_changed": false,
+    "pypi_known_advisories_for_patched_pypdf": 0
+  },
+  "source_retrievals": [
+    {
+      "file": "audit_2022_04.pdf",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/may/doc202251255501.pdf",
+      "expected_sha256": "53076424eddc7f5ab4b80aba2233d905359ac8441a98126612c265f14154441f",
+      "retrieved_at_utc": "2026-10-28T15:15:49.665759+00:00",
+      "bytes": 318441,
+      "sha256": "53076424eddc7f5ab4b80aba2233d905359ac8441a98126612c265f14154441f",
+      "hash_match": true
+    },
+    {
+      "file": "pib_Dec2023.pdf",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/jan/doc2024112298001.pdf",
+      "expected_sha256": "3bcf8e64ee54e99e8fa12e5365b0ae389b5fc4e349119db7be43b9eb93c53a91",
+      "retrieved_at_utc": "2026-10-28T15:15:49.666694+00:00",
+      "bytes": 350498,
+      "sha256": "3bcf8e64ee54e99e8fa12e5365b0ae389b5fc4e349119db7be43b9eb93c53a91",
+      "hash_match": true
+    },
+    {
+      "file": "audit_2024_09.pdf",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/oct/doc20241014416101.pdf",
+      "expected_sha256": "472d7a00b19a151964390730015412e9d4f0fd581d60e911365638c3c4e57207",
+      "retrieved_at_utc": "2026-10-28T15:15:49.667292+00:00",
+      "bytes": 429219,
+      "sha256": "472d7a00b19a151964390730015412e9d4f0fd581d60e911365638c3c4e57207",
+      "hash_match": true
+    },
+    {
+      "file": "audit_2025_07.pdf",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025812605601.pdf",
+      "retrieved_at_utc": "2026-10-28T15:17:44.638423+00:00",
+      "expected_sha256": "a125f6d62e4fc15460064f06b7352edd1d8a408952a080f91b9e03ef60b50e32",
+      "bytes": 745018,
+      "sha256": "a125f6d62e4fc15460064f06b7352edd1d8a408952a080f91b9e03ef60b50e32",
+      "hash_match": true
+    },
+    {
+      "file": "audit_2026_01.pdf",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026212787501.pdf",
+      "expected_sha256": "e24736867399c4af992d176ac5e6cff36d99c1401e1a6f2503e4d7eedcfd3f3f",
+      "retrieved_at_utc": "2026-10-28T15:15:49.668951+00:00",
+      "bytes": 715069,
+      "sha256": "e24736867399c4af992d176ac5e6cff36d99c1401e1a6f2503e4d7eedcfd3f3f",
+      "hash_match": true
+    }
+  ],
+  "execution_notes": [
+    "The first temporary-copy execution stopped before PDF parsing because the ignored ar1.json artifact was absent. Running the documented restore_frozen_model.py reconstructed its exact frozen hash without fitting; the subsequent full verification passed.",
+    "The July 2025 PDF timed out on the first download; its separate retry matched the original byte hash before parsing.",
+    "Verification ran in a disposable copy, preserving original public verification receipts and observation dates."
+  ],
+  "limits": [
+    "Five original PDF inputs were recovered, not the unavailable original HTML cache.",
+    "No adversarial malformed-PDF corpus was executed; advisory remediation follows the upstream patched version and real-input regression checks.",
+    "No new rendered browser check or current inflation forecast is implied."
+  ]
+}
