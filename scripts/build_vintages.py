@@ -2,6 +2,7 @@ import calendar,hashlib,json,re
 from datetime import datetime,timedelta,timezone
 from pathlib import Path
 from lxml import html
+from header_columns import ordered_cells
 ROOT=Path(__file__).resolve().parents[1]
 IST=timezone(timedelta(hours=5,minutes=30))
 MONTHS={name.lower():j for j,name in enumerate(calendar.month_name) if name}
@@ -26,7 +27,7 @@ def publication(tree):
     if not found or len(set(found))!=1:raise ValueError('Missing/conflicting PIB publication time')
     return found[0]
 
-def headline_candidates(tree):
+def headline_candidates(tree,reference_month=None):
     result=[]
     for tr in tree.xpath('//tr'):
         els=tr.xpath('./th|./td');texts=[normal(x) for x in els]
@@ -36,8 +37,9 @@ def headline_candidates(tree):
             if re.fullmatch(r'-?\d+(?:\.\d+)?',t):numeric.append(float(t));numeric_els.append(x)
         if len(numeric)!=9 or not all(abs(x)<50 for x in numeric):continue
         table=tr.xpath('ancestor::table[1]')[0];head=normal(table)
-        if 'Prov' not in head or 'Final' not in head or not re.search(r'Combd|Combined',head,re.I):continue
-        result.append({'numbers':numeric,'numeric_cells':[tree.getroottree().getpath(x) for x in numeric_els],
+        ordered=ordered_cells(table,tr,numeric_els,reference_month)
+        numeric=[float(normal(x)) for x in ordered]
+        result.append({'numbers':numeric,'numeric_cells':[tree.getroottree().getpath(x) for x in ordered],
                        'row_xpath':tree.getroottree().getpath(tr),'header_excerpt':head[:650]})
     return result
 
@@ -63,7 +65,7 @@ def run():
         month=f'{found.group(2)}-{MONTHS[found.group(1).lower()]:02d}'
         if month!=source_ref:raise ValueError(f'Reference mismatch {source_ref} vs {month}')
         if not re.search(r'2012\s*=\s*100',text):raise ValueError('Old base absent')
-        candidates=headline_candidates(tree)
+        candidates=headline_candidates(tree,month)
         if not candidates:raise ValueError('No explicit headline CPI9-value inflation row: '+month)
         vals={tuple(c['numbers']) for c in candidates}
         if len(vals)!=1:raise ValueError('Conflicting duplicate CPI tables: '+month)

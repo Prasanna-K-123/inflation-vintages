@@ -1,30 +1,74 @@
-import concurrent.futures,hashlib,json,urllib.request
+"""Reacquire pinned official bytes; never rewrite the historical manifest."""
+import argparse
+import concurrent.futures
+from datetime import datetime, timezone
+import hashlib
+import json
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1]
-IDS={2022:[1798312,1805838,1816066,1824772,1833536,1840945,1851273,1858724,1867095,1875824,1882801,1890750],
-     2023:[1898820,1906436,1915936,1923709,1931707,1938980,1948574,1956659,1967118,1976688,1985492,1995548],
-     2024:[2005313,2013793,2017771,2020447,2024761,2032780,2044604,2054203,2064700,2072719,2083704,2092477],
-     2025:[2102267,2110779,2121843,2128387,2135927,2144511,2155476,2165974,2178447,2189186,2202940,2213736]}
+import urllib.request
 
-def acquire():
-    raw=ROOT/'data/raw';raw.mkdir(parents=True,exist_ok=True)
-    jobs=[(f'{year}-{month:02d}',pid) for year,ids in IDS.items() for month,pid in enumerate(ids,1)]
-    jobs.append(('2026-01_new_base',2227012))
-    def get(job):
-        month,pid=job;url=f'https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID={pid}&lang=2&reg=3';f=raw/f'source_{pid}.html'
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def acquire(root=ROOT, *, receipt=None, workers=4):
+    root = Path(root)
+    manifest_path = root / 'data/source_manifest.json'
+    manifest_bytes = manifest_path.read_bytes()
+    manifest = json.loads(manifest_bytes)
+    started = datetime.now(timezone.utc).isoformat()
+    receipt = Path(receipt) if receipt else root / 'reports/acquisition' / (started.replace(':', '-') + '.json')
+    if receipt.resolve() == manifest_path.resolve() or receipt.exists():
+        raise ValueError('Acquisition receipt must be a new file, not the pinned manifest')
+
+    def get(source):
+        item = {'reference_month': source['reference_month'], 'url': source['url'],
+                'expected_sha256': source['sha256'], 'expected_bytes': source['bytes'],
+                'checked_at_utc': datetime.now(timezone.utc).isoformat()}
         try:
-            if not f.exists():
-                with urllib.request.urlopen(url,timeout=30) as r:b=r.read()
-                if b'Consumer Price' not in b and b'CONSUMER PRICE' not in b:raise ValueError('Not a CPI document')
-                f.write_bytes(b)
-            b=f.read_bytes()
-            return {'reference_month':month,'prid':pid,'url':url,'file':str(f.relative_to(ROOT)),
-                    'sha256':hashlib.sha256(b).hexdigest(),'bytes':len(b),'retrieved_utc_date':'2026-10-17'}
-        except Exception as e:return {'reference_month':month,'prid':pid,'url':url,'error':type(e).__name__+': '+str(e)}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-        results=[]
-        for item in pool.map(get,jobs):results.append(item);print(json.dumps({k:item[k] for k in item if k in ['reference_month','bytes','error']}),flush=True)
-    (ROOT/'data/source_manifest.json').write_text(json.dumps(results,indent=2)+'\n')
-    return results
+            target = root / source['file']
+            if not target.resolve().is_relative_to((root / 'data/raw').resolve()):
+                raise ValueError('Manifest cache path is outside data/raw')
+            if not source['url'].startswith('https://www.pib.gov.in/'):
+                raise ValueError('Source is outside the pinned official PIB host')
+            cached = target.exists()
+            item['origin'] = 'existing_cache' if cached else 'network'
+            if cached:
+                raw = target.read_bytes()
+            else:
+                with urllib.request.urlopen(source['url'], timeout=30) as response:
+                    raw = response.read()
+                item['retrieved_at_utc'] = datetime.now(timezone.utc).isoformat()
+            item.update(observed_sha256=hashlib.sha256(raw).hexdigest(), observed_bytes=len(raw))
+            if item['observed_sha256'] != source['sha256'] or len(raw) != source['bytes']:
+                raise ValueError('Source bytes differ from the frozen manifest; not accepted')
+            if not cached:
+                target.parent.mkdir(parents=True, exist_ok=True)
+                with target.open('xb') as stream:
+                    stream.write(raw)
+            item['status'] = 'verified'
+        except Exception as error:
+            item.update(status='failed', error=type(error).__name__ + ': ' + str(error))
+        return item
 
-if __name__=='__main__':acquire()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
+        results = list(pool.map(get, manifest))
+    unchanged = manifest_path.read_bytes() == manifest_bytes
+    result = {'started_at_utc': started, 'finished_at_utc': datetime.now(timezone.utc).isoformat(),
+              'pinned_manifest_sha256': hashlib.sha256(manifest_bytes).hexdigest(),
+              'pinned_manifest_unchanged': unchanged,
+              'all_verified': unchanged and all(x['status'] == 'verified' for x in results),
+              'sources': results,
+              'scope': 'Original retrieval metadata is preserved. Cache checks are not new retrievals; changed bytes are rejected, not adopted as historical vintages.'}
+    receipt.parent.mkdir(parents=True, exist_ok=True)
+    with receipt.open('x') as stream:
+        stream.write(json.dumps(result, indent=2, sort_keys=True) + '\n')
+    return result
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--receipt', type=Path, help='New JSON receipt path; default reports/acquisition/current-UTC.json')
+    args = parser.parse_args()
+    result = acquire(receipt=args.receipt)
+    print(json.dumps({key: value for key, value in result.items() if key != 'sources'}, indent=2))
+    raise SystemExit(0 if result['all_verified'] else 1)

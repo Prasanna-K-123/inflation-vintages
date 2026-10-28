@@ -7,17 +7,13 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'src'))
 from inflation_vintages.core import VintageStore,shift_month,baseline_predictions,ar1_prediction
 from evaluate_final import metrics,block_interval
+from method_integrity import verify_frozen_inputs
 
 def read(name):return json.loads((ROOT/name).read_text())
 
 if __name__=='__main__':
     seal=read('reports/model_freeze.json')
-    checked=[]
-    for name,digest in seal['sha256'].items():
-        if name=='artifacts/ar1.json':continue
-        if hashlib.sha256((ROOT/name).read_bytes()).hexdigest()!=digest:
-            raise RuntimeError('Published frozen input changed: '+name)
-        checked.append(name)
+    checked=verify_frozen_inputs(ROOT,seal,skip=('artifacts/ar1.json',))
     panel=read('data/processed/vintages.json');store=VintageStore(panel)
     releases={r['reference_month']:r for r in read('data/processed/releases.json')}
     model=read('reports/development.json')['model']
@@ -80,6 +76,7 @@ if __name__=='__main__':
             'primary_metrics':recomputed,'later_final_metrics':later_metrics,
             'primary_paired_interval':interval,'hindsight_metrics':hmetrics,
             'raw_document_hash_and_XPath_reaudit_performed':False,
+            'method_revision':'26 October header parser and acquisition correction; original builder retained for historical freeze verification; this command does not run source parsing.',
             'scope':'Numeric reproduction from the published frozen vintage table and publication metadata. This does not reacquire or independently re-audit original source documents. Full source-cell audit remains evaluate_final.py with pinned raw bytes.'}
     (ROOT/'reports/numeric_reproduction.json').write_text(json.dumps(result,indent=2,sort_keys=True)+'\n')
     print(json.dumps(result,indent=2))

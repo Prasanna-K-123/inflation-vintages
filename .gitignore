@@ -8,3 +8,5 @@ artifacts/
 reports/source_review/
 RESUME.md
 RECOVERY_MANIFEST.json
+work/
+reports/acquisition/

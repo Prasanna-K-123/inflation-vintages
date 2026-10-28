@@ -32,6 +32,7 @@
       "rmse_pp": 2.829720245301056
     }
   },
+  "method_revision": "26 October header parser and acquisition correction; original builder retained for historical freeze verification; this command does not run source parsing.",
   "passed": true,
   "primary_metrics": {
     "persistence": {

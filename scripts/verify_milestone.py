@@ -6,6 +6,7 @@ from pypdf import PdfReader
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'src'))
 from inflation_vintages.core import VintageStore,baseline_predictions,ar1_prediction,shift_month
 from build_vintages import dump
+from method_integrity import verify_frozen_inputs
 
 PDFS=[('audit_2022_04.pdf','2022-04','https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/may/doc202251255501.pdf'),
       ('pib_Dec2023.pdf','2023-12','https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/jan/doc2024112298001.pdf'),
@@ -15,8 +16,7 @@ PDFS=[('audit_2022_04.pdf','2022-04','https://static.pib.gov.in/WriteReadData/sp
 
 def run():
     f=json.loads((ROOT/'reports/model_freeze.json').read_text())
-    for p,h in f['sha256'].items():
-        if hashlib.sha256((ROOT/p).read_bytes()).hexdigest()!=h:raise RuntimeError('Frozen source/model changed: '+p)
+    verify_frozen_inputs(ROOT,f)
     v=json.loads((ROOT/'data/processed/vintages.json').read_text());store=VintageStore(v)
     final=json.loads((ROOT/'data/processed/final_forecasts.json').read_text());model=json.loads((ROOT/'artifacts/ar1.json').read_text())
     for row in final:

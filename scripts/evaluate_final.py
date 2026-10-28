@@ -11,6 +11,7 @@ from lxml import html
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 from inflation_vintages.core import VintageStore, ar1_prediction, shift_month
+from method_integrity import verify_frozen_inputs
 
 
 def read(name):
@@ -25,9 +26,7 @@ def dump(name, value):
 
 def verify_freeze():
     frozen = read('reports/model_freeze.json')
-    for name, digest in frozen['sha256'].items():
-        if hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != digest:
-            raise RuntimeError('Frozen input differs: ' + name)
+    verify_frozen_inputs(ROOT, frozen)
     return frozen
 
 

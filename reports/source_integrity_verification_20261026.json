@@ -1,0 +1,72 @@
+{
+  "checks": {
+    "current_link_receipt": "work/demo_link_verification.json (ignored, stamped with actual UTC execution time)",
+    "explorer_hindsight_views": 18,
+    "explorer_normal_views": 108,
+    "explorer_table_rows": 2268,
+    "final_forecasts_reconstructed": 54,
+    "historical_frozen_hashes_checked": 10,
+    "link_receipt_preserves_historical_report": true,
+    "local_demo_links_passed": true,
+    "native_browser_checked_in_this_revision": false,
+    "original_model_hash_restored_without_fitting": true,
+    "post_revision_demo_generator_verified": true,
+    "public_release_complete": false,
+    "training_pairs": 23,
+    "unit_tests": 13,
+    "unit_tests_passed": true
+  },
+  "current_verification_code_sha256": {
+    "scripts/acquire_sources.py": "d5468175a533f568a9d3ea4aa35aa19cbb1592a1dacafeef10ff02d5ff99e431",
+    "scripts/audit_current_sources.py": "3b0ce841d301a6c61b095f5a177fa3c0cfe8c3ec5f6f8b7496fd95917424f1e7",
+    "scripts/build_demo.py": "ce3d595f1f83a0f8e7e477ffb303d0553a78de0b378569cf6a02bc3eb6e8fbcf",
+    "scripts/build_vintages.py": "d24433ec0088fe6ec0836989ad422e8764615ba43bd5e43425cff2b96f4f5098",
+    "scripts/header_columns.py": "1c76303cf163c88fbd48585756984824be0c19009c3a6220a8cbb33d87ca746c",
+    "scripts/method_integrity.py": "742f9b4884055c44937eddc739c2686d7d2624ccedd42d462a136f47719c132f",
+    "scripts/restore_frozen_model.py": "1dbebf6d6540e103692eb4b929c8f009907a97238a79185f8403a1f8d1f9d414",
+    "scripts/verify_demo_links.py": "0d01b515f81257ae2ea79e5168260f318582c664f860228abc7e7e1358e09c4d",
+    "tests/test_source_integrity.py": "948a8fdef4270e15df780e85398995534dcdd7521b14d9a7e329b15ea3de277c"
+  },
+  "numeric_receipt_sha256": "f126b22f2a06c01f7c74859d0812f27596c67b87995941f712f384cacc6b79b9",
+  "remaining_limits": [
+    "Original frozen raw HTML and five PDF source-check documents were not restored in this execution.",
+    "New-source HTML is kept in an ignored private cache and is not republished.",
+    "Historical numerical results, model selection, scientific freeze and source manifest are unchanged.",
+    "Portfolio integration and live publication review remain separate."
+  ],
+  "revision_date": "2026-10-26",
+  "runtime": {
+    "dependencies": {
+      "lxml": "6.1.1",
+      "matplotlib": "3.10.8",
+      "numpy": "2.3.5",
+      "pypdf": "6.21.1",
+      "reportlab": "4.4.9",
+      "scikit-learn": "1.8.0"
+    },
+    "isolated_environment": "venv with system-site-packages; pinned pypdf installed locally",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "python": "3.12.14"
+  },
+  "scope": "Header and acquisition-provenance correction, current-document comparison and public-table numerical reproduction. Original raw-byte reconstruction and fresh browser/publication checks are not claimed.",
+  "source_comparison": {
+    "all_48_old_base_releases_matched": true,
+    "carried_forward_source_count": 48,
+    "historical_byte_matches": 0,
+    "historical_document_count": 49,
+    "historical_manifest_sha256": "79c6a1a6fbb10d89fb74be28b586a9ed227b00f49d2361ad6b2d644d1849088a",
+    "historical_manifest_unchanged": true,
+    "initial_receipt": "current_source_comparison_20261026.json",
+    "initial_receipt_sha256": "96d4e68dceaa235358ca2c3437efdd829eb7e8a350fde21dd25ca4d53562f24e",
+    "initial_result": "47 old-base releases plus 4 new-base rows matched; one IncompleteRead network error retained in the initial receipt.",
+    "interpretation": "Combined October26/28 documentary agreement; not immutable contemporaneous source capture, original-byte recovery or 49 fresh October28 downloads.",
+    "new_base_evidence_rows_matched": 4,
+    "retried_months": [
+      "2025-03"
+    ],
+    "retry_receipt": "current_source_retry_20261028.json",
+    "retry_receipt_sha256": "9df3a67e414ed47901873eec4a86890defa397a99609510f9027658a8ce7b49d"
+  },
+  "status": "passed_bounded_revision_checks",
+  "verification_completed_at_utc": "2026-10-28T09:05:02.567376+00:00"
+}

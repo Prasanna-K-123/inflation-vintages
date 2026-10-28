@@ -2,13 +2,13 @@
 import hashlib,json
 from export_reports import export_reports
 from pathlib import Path
+from method_integrity import verify_frozen_inputs
 ROOT=Path(__file__).resolve().parents[1]
 INPUTS=["reports/final.json"]
 def read(name):return json.loads((ROOT/name).read_text())
 def guard():
     frozen=read('reports/model_freeze.json')
-    for name,digest in frozen['sha256'].items():
-        assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest,'Frozen input changed: '+name
+    verify_frozen_inputs(ROOT, frozen)
 
 def run():
     guard()

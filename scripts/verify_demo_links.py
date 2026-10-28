@@ -1,6 +1,7 @@
 """Check static-hosting links and basic document structure; not browser QA."""
 import hashlib
 import json
+from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -69,6 +70,7 @@ def run():
                 assert unquote(parsed.fragment) in target.ids, f'Missing fragment: {path}:{link}'
             local_count += 1
     output = {
+        'executed_at_utc': datetime.now(timezone.utc).isoformat(),
         'passed': True,
         'html_pages': len(files),
         'local_links': local_count,
@@ -78,7 +80,9 @@ def run():
         'browser_verified': False,
         'public_release_complete': False,
     }
-    (ROOT / 'reports/demo_link_verification.json').write_text(json.dumps(output, indent=2) + '\n')
+    receipt = ROOT / 'work/demo_link_verification.json'
+    receipt.parent.mkdir(parents=True, exist_ok=True)
+    receipt.write_text(json.dumps(output, indent=2) + '\n')
     print(json.dumps({k: v for k, v in output.items() if k != 'html_hashes'}))
 
 

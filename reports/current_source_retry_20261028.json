@@ -1,0 +1,897 @@
+{
+  "all_matched": true,
+  "finished_at_utc": "2026-10-28T09:03:00.685056+00:00",
+  "historical_byte_matches": 0,
+  "historical_manifest_sha256": "79c6a1a6fbb10d89fb74be28b586a9ed227b00f49d2361ad6b2d644d1849088a",
+  "historical_manifest_unchanged": true,
+  "old_base_release_count": 48,
+  "retry": {
+    "carried_forward_count": 48,
+    "prior_receipt": "reports/current_source_comparison_20261026.json",
+    "prior_receipt_sha256": "96d4e68dceaa235358ca2c3437efdd829eb7e8a350fde21dd25ca4d53562f24e",
+    "retried_months": [
+      "2025-03"
+    ],
+    "scope": "Only prior failed sources were retrieved in this execution. Other rows retain their original retrieval dates and evidence; they were not fetched again."
+  },
+  "scope": "Current official-page statistical cells, semantic headers and publication metadata compared with the published historical table. New retrievals are dated now; this is not original-byte or contemporaneous historical-snapshot reconstruction. No original scientific inputs changed.",
+  "sources": [
+    {
+      "bytes": 2184368,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "ad186f8e2f162455b1da2d388403fde71df11e18a416233efd7e3c6e581d551d",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "694ad1ae0a7709d806612fe7e6963defc149c6383323536c19ceb7f214aa73ee",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2022-02-14T17:32:00+05:30",
+      "reference_month": "2022-01",
+      "retrieved_at_utc": "2026-10-26T15:16:57.197383+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1798312&lang=2&reg=3"
+    },
+    {
+      "bytes": 2144748,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "1eccade0ff142e1e3efa11a4b4b6952babd2c9b83a81a8d9df8cbb58b18a0029",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "8debc709fe52af326d2d7bd488855fc1225c93d5a552d290cc22148036a61016",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2022-03-14T17:30:00+05:30",
+      "reference_month": "2022-02",
+      "retrieved_at_utc": "2026-10-26T15:16:54.943250+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1805838&lang=2&reg=3"
+    },
+    {
+      "bytes": 2130735,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "9eb256203681eb9f8e29d498e164f9025494ee45cc396022c3153417647e59b3",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "c549c8cf422e781a8ce00cbec46af1e729fb1923d17d5740f80a0a6f019a2994",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2022-04-12T17:30:00+05:30",
+      "reference_month": "2022-03",
+      "retrieved_at_utc": "2026-10-26T15:16:57.405039+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1816066&lang=2&reg=3"
+    },
+    {
+      "bytes": 2130423,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "945371239259fe45ea097fcb5be67837fe89e4fdb79f4735b0a1398115c6f478",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "6abaf1dcd2791052c04d3adfe38a91b5cd3e2b7a995b9f5e9060d66d80b32b2b",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2022-05-12T17:30:00+05:30",
+      "reference_month": "2022-04",
+      "retrieved_at_utc": "2026-10-26T15:16:55.111117+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1824772&lang=2&reg=3"
+    },
+    {
+      "bytes": 2135717,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "cb55389e519b1480e4239e0a997fce052f6ab6c85edad4fbabcd17b4d6bb8ac3",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "986a1a2aa22beca1a75ffe3d8986eaca4e6bba88c52610c753ba88c0aa6d291f",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2022-06-13T17:30:00+05:30",
+      "reference_month": "2022-05",
+      "retrieved_at_utc": "2026-10-26T15:17:03.134142+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1833536&lang=2&reg=3"
+    },
+    {
+      "bytes": 2178119,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "9774d9b3a1798d13485d93f34f5491004999568ba42caef03f89c74e7dfa8555",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "afed0bdd709415f03e3fffc1969d3b60562ee33cc226587f956d12113057c170",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2022-07-12T17:30:00+05:30",
+      "reference_month": "2022-06",
+      "retrieved_at_utc": "2026-10-26T15:17:03.341292+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1840945&lang=2&reg=3"
+    },
+    {
+      "bytes": 2143848,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "3c7f0fdbcf4363e991b91c9e2112d8c789e678f2f3fbdff3306c3c9993363ed4",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "cc8d92132afcd68b2fa792d190167a6f898a722d0eb943f0b085d63c030d51db",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2022-08-12T17:30:00+05:30",
+      "reference_month": "2022-07",
+      "retrieved_at_utc": "2026-10-26T15:17:03.529170+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1851273&lang=2&reg=3"
+    },
+    {
+      "bytes": 2189944,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "91f9b94952552bfd56d2dcfeb872ecd023a61369df9c7620a12b7d24e419c76c",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "b8082bde4b8c6a5a1e22136ca01ee0816679c39746fcb24c7f32a2bbf493b5fa",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2022-09-12T17:30:00+05:30",
+      "reference_month": "2022-08",
+      "retrieved_at_utc": "2026-10-26T15:17:04.038704+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1858724&lang=2&reg=3"
+    },
+    {
+      "bytes": 2361643,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "4ee485714d6c6fb35bf723510ad0882075a6d26dfb846e77bb38290acd122918",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "f206d95a19cacdb07c74c9a0de3f9283866a8736e283acb31d816f90b2582401",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2022-10-12T17:30:00+05:30",
+      "reference_month": "2022-09",
+      "retrieved_at_utc": "2026-10-26T15:17:12.651549+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1867095&lang=2&reg=3"
+    },
+    {
+      "bytes": 2139175,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "d609259decde0e3a50aa9cd663ba4a72985633e08929b1181a62f2468c27ec6f",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "64acab024f7e0006719e012cc2bcd243d6d74ef71c2aef6097f4c2146f7e7bc1",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2022-11-14T17:30:00+05:30",
+      "reference_month": "2022-10",
+      "retrieved_at_utc": "2026-10-26T15:17:10.981211+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1875824&lang=2&reg=3"
+    },
+    {
+      "bytes": 2145916,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "78f09d1ba45f340f4d88206697344a005d523111067687f2e0ac629641f66069",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "91c41a42e88d9eaaf54773e45b1cfd205ea46742b5df2496a3f771328cc8c657",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2022-12-12T17:30:00+05:30",
+      "reference_month": "2022-11",
+      "retrieved_at_utc": "2026-10-26T15:17:10.878856+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1882801&lang=2&reg=3"
+    },
+    {
+      "bytes": 2139778,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "68c8ee2e6b567ce0537a00b940c952158f67be540c66e353bec41e52954f0495",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "9d1f96a97982cb0ed2b9133a11c50d502765aee2f57ec22938e144c6701419c2",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-01-12T17:30:00+05:30",
+      "reference_month": "2022-12",
+      "retrieved_at_utc": "2026-10-26T15:17:11.654629+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1890750&lang=2&reg=3"
+    },
+    {
+      "bytes": 2171374,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "10d5bd5c8cb420e07590066c0c9b984e75589839b2eef748f7b2b9a09b051f4b",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "41c6a15cfda5c6885c65dad0275f6d1ee660d64ed0098675c43cac9082f6ab9a",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-02-13T17:30:00+05:30",
+      "reference_month": "2023-01",
+      "retrieved_at_utc": "2026-10-26T15:17:15.185330+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1898820&lang=2&reg=3"
+    },
+    {
+      "bytes": 2198851,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "10eeb6dcf7f514120a090383c4af878d8dce93b6f4f25512c8f89057c15d306a",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "2c2cb2840a92e6bb83837fef8f5af0fe177c84c4a553570d7c0624dae111432d",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-03-13T17:30:00+05:30",
+      "reference_month": "2023-02",
+      "retrieved_at_utc": "2026-10-26T15:17:19.750384+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1906436&lang=2&reg=3"
+    },
+    {
+      "bytes": 213763,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "48bb23beb0e18e5cf530f64f8d5dc24449366f873343b1169398a32b4843c200",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "bb121d0a79e0120f916b6daf1ba5c9f8535c721704c2e533d30a0a0507d171e3",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-04-12T17:47:00+05:30",
+      "reference_month": "2023-03",
+      "retrieved_at_utc": "2026-10-26T15:17:16.036269+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1915936&lang=2&reg=3"
+    },
+    {
+      "bytes": 213700,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "bbf532741c7a8ad26863a993057483f06b7c5941c9fe66afcf9f7156c761ed40",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "0c374279ef8e8a28e904b41c10a73eb2ee509081948f19ed4fe9195658c8949b",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-05-12T17:30:00+05:30",
+      "reference_month": "2023-04",
+      "retrieved_at_utc": "2026-10-26T15:17:16.438140+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1923709&lang=2&reg=3"
+    },
+    {
+      "bytes": 2213857,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "cf038f15385b86b6560f40de3effb3dc4be6f6c9ed09fc55ea1a81dc10d5828b",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "c9b2b27ac0d938181fa0d97c099aef2e59e61a57c4ba8239c677ae3ff1e24779",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-06-12T17:30:00+05:30",
+      "reference_month": "2023-05",
+      "retrieved_at_utc": "2026-10-26T15:17:22.655680+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1931707&lang=2&reg=3"
+    },
+    {
+      "bytes": 2215748,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "25c779f86b8748466388d21246b3f56386de427ac7bad7ed8e4da537176f4276",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "a6a437c42645c201cfcc8909373f86de1ee9f2b53249c8fe121884961cbfde18",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-07-12T17:30:00+05:30",
+      "reference_month": "2023-06",
+      "retrieved_at_utc": "2026-10-26T15:17:24.922959+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1938980&lang=2&reg=3"
+    },
+    {
+      "bytes": 2158690,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "de2c6ac66c982627152c35f055252c687556f5927850a0d9ea8e7c58fe118107",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "78d838ab37933d9fa34db4b5e6b1a15c4f246c621bb8f2dfba6ab4de1fbbbfbb",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-08-14T17:30:00+05:30",
+      "reference_month": "2023-07",
+      "retrieved_at_utc": "2026-10-26T15:17:23.488851+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1948574&lang=2&reg=3"
+    },
+    {
+      "bytes": 2157931,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "9d831148564a0fe688814a3a172e40ba4658f7721462c6f4158cad58fb74855b",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "7fdc5b311df0d6e64ada3dc8b9526e9f96f64245a8c380e2317fd26580466d8f",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-09-12T17:30:00+05:30",
+      "reference_month": "2023-08",
+      "retrieved_at_utc": "2026-10-26T15:17:28.552462+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1956659&lang=2&reg=3"
+    },
+    {
+      "bytes": 2157270,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "7f11d0a9ce414e3b53499baa46a0d4babdcb6642daefeae4cd9b8b7f5e5a5d68",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "f9f09dd52bd4b607f7bef814ad8a16b2cb4ec1020ea2b9a052349185bbff6862",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-10-12T17:30:00+05:30",
+      "reference_month": "2023-09",
+      "retrieved_at_utc": "2026-10-26T15:17:28.099754+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1967118&lang=2&reg=3"
+    },
+    {
+      "bytes": 2163089,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "0820adb89dbbd9a7480494584cdc32da170c7b79666843ec635e893cecf40c1b",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "62ee5ea573dfdbfddab9f41dc2997b568fcaf512a5be001cd324a45f4fe8a57c",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-11-13T17:30:00+05:30",
+      "reference_month": "2023-10",
+      "retrieved_at_utc": "2026-10-26T15:17:39.304540+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1976688&lang=2&reg=3"
+    },
+    {
+      "bytes": 2172800,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "fc4361fcfdd80a9e9404b7dae3a171bb2ab82f37f5f2544befb58914b5f53604",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "44a283a02e754fc09d311fed29fe11389cf9d9db315f2b56ffc3e43fe87733d9",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2023-12-12T17:30:00+05:30",
+      "reference_month": "2023-11",
+      "retrieved_at_utc": "2026-10-26T15:17:31.647558+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1985492&lang=2&reg=3"
+    },
+    {
+      "bytes": 2212884,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "ffc648a8befdcc584549aa521c7bd8d911b3eee8ac7f14a93fb5d27932b55b66",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "bee8f2b3c6598c030345edc541678dbb0601ef4fd391037d2ffaf6057d81c301",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-01-12T17:30:00+05:30",
+      "reference_month": "2023-12",
+      "retrieved_at_utc": "2026-10-26T15:17:36.420634+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1995548&lang=2&reg=3"
+    },
+    {
+      "bytes": 2158071,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "d7bc438be1a31aaf223b2685337e0efe0ea9a646734cf4abe3f543696d3ff56c",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "461681e1d2ef650a772ac7a82c8e666979bd35674447fc5ce81391f9ce0ac9bd",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-02-12T17:30:00+05:30",
+      "reference_month": "2024-01",
+      "retrieved_at_utc": "2026-10-26T15:17:37.022994+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2005313&lang=2&reg=3"
+    },
+    {
+      "bytes": 2219300,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "1a96b543daca9d1b95ec236cbbc6a079e262bf6b676dd540295f73229e011302",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "cc148a9d0787c2dbb4ad2ebf4ad25bc4449e8d0174f9a2d5944b68ad288017cb",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-03-12T17:30:00+05:30",
+      "reference_month": "2024-02",
+      "retrieved_at_utc": "2026-10-26T15:17:37.155431+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2013793&lang=2&reg=3"
+    },
+    {
+      "bytes": 2159863,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "d04226ad476c9d9e569a45b9b075ff09935b325085fe6e3ddd5cffd0826827b8",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "48a8239c90730569f2fe32fc575231d305e3a5a2a90ee950ce594c9685d0b83e",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-04-12T18:10:00+05:30",
+      "reference_month": "2024-03",
+      "retrieved_at_utc": "2026-10-26T15:17:46.854626+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2017771&lang=2&reg=3"
+    },
+    {
+      "bytes": 2182320,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "9f7b630d983086fdff57ad1f91337ea7debb43a853fc7906e36c24764fc67d97",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "98f47e63b5e835af424329a26ca7bc4c66da807bf872325ebe111abfdbfc4a5f",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-05-13T17:30:00+05:30",
+      "reference_month": "2024-04",
+      "retrieved_at_utc": "2026-10-26T15:17:47.423314+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2020447&lang=2&reg=3"
+    },
+    {
+      "bytes": 2224088,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[1]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[1]"
+      ],
+      "current_sha256": "56b426853ed5047fa75d667e026cfb655053a63fa4b45109fc88806c6bf0c82a",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "12c38f4073953a42e6cad808ccd6086c004862aed1d8b864af57a9727f2b7d82",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-06-12T17:30:00+05:30",
+      "reference_month": "2024-05",
+      "retrieved_at_utc": "2026-10-26T15:17:45.516046+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2024761&lang=2&reg=3"
+    },
+    {
+      "bytes": 2206557,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "f40bcebca052db0a4d0b2b3519ca6aaaf0558bed95f566adcd681a2854ebaccb",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "2ccc552eabe3fa7733d10674a0f5b368e0d66b5d3c39a0cdde6b1de85d69c76e",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-07-12T17:30:00+05:30",
+      "reference_month": "2024-06",
+      "retrieved_at_utc": "2026-10-26T15:17:45.651124+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2032780&lang=2&reg=3"
+    },
+    {
+      "bytes": 2202261,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "307fcb7c1e20429e661965c242973a2fa3525c0f9e3cb17a5080682ea3afa3fe",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "c33f23f8f750cfa660df57fe6817cfab9f7ca14cd4aff30fd981269414622ce5",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-08-12T17:30:00+05:30",
+      "reference_month": "2024-07",
+      "retrieved_at_utc": "2026-10-26T15:17:53.893184+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2044604&lang=2&reg=3"
+    },
+    {
+      "bytes": 2165138,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "c45053d8a12b8ced2b1a702c295306703743d7bc3ece6e8f5fb56deaffe1ff01",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "4848e65c07d605bbc25af68fb99dfd4ce476841e705bc6734def5a80fc88abc6",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-09-12T17:30:00+05:30",
+      "reference_month": "2024-08",
+      "retrieved_at_utc": "2026-10-26T15:17:50.404440+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2054203&lang=2&reg=3"
+    },
+    {
+      "bytes": 2216212,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "afb0af334c95483269b8b75dd1d6ae17d7c973ef1db5d001e0b2f5f607fc9656",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "ead2fa9d8a1eb7c6eccc70f0e3fd2c1062845931ba4f1a225ee0299bc1d44f97",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-10-14T17:30:00+05:30",
+      "reference_month": "2024-09",
+      "retrieved_at_utc": "2026-10-26T15:17:53.575547+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2064700&lang=2&reg=3"
+    },
+    {
+      "bytes": 2163489,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "5e38604a79ee7e9555249cbf203eff9c82b013ddcc692d695a9c4e4449660886",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "15a4f390546f75a4f300e4979791b2d3e39f69cfa4a2b48119349356355931b7",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-11-12T16:00:00+05:30",
+      "reference_month": "2024-10",
+      "retrieved_at_utc": "2026-10-26T15:17:53.347737+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2072719&lang=2&reg=3"
+    },
+    {
+      "bytes": 2633820,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/div[1]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "a37876fc3dab9d6214764ba5cc99b703ef7be809da0be1108079c95d709deb24",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "e4416720b104dace808c336bb40539de3f39ce63d08e4decda520c342ef2e0de",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2024-12-12T16:00:00+05:30",
+      "reference_month": "2024-11",
+      "retrieved_at_utc": "2026-10-26T15:17:58.935936+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2083704&lang=2&reg=3"
+    },
+    {
+      "bytes": 2669118,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "9e68bc914890ae91b377db4f9eac363aad1b6146a423a8579df66ea441a0ecc6",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "1730730db4064f63d69be0cc98445ec5cd0de1e0f76b925174ea596e60580373",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-01-13T16:00:00+05:30",
+      "reference_month": "2024-12",
+      "retrieved_at_utc": "2026-10-26T15:18:00.118535+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2092477&lang=2&reg=3"
+    },
+    {
+      "bytes": 2677019,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "8d435203566a1dc2f915c902a68c9026d7f941ee31736c904b5e913ebecf459d",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "5aba3a5fd7e85e4d1b174dbaa34cd748d8699ec317b39d7019126117da317866",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-02-12T16:00:00+05:30",
+      "reference_month": "2025-01",
+      "retrieved_at_utc": "2026-10-26T15:17:59.918933+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2102267&lang=2&reg=3"
+    },
+    {
+      "bytes": 2716212,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "486639cef8cf7cc5b817d1c7433b30db905a48af77456d17bb4979fd8ffb97d0",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "9e81d21300c51f9c23242c14d50641d16856341983b625f763d7564e04897ece",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-03-12T16:00:00+05:30",
+      "reference_month": "2025-02",
+      "retrieved_at_utc": "2026-10-26T15:18:00.607642+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2110779&lang=2&reg=3"
+    },
+    {
+      "bytes": 2750947,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "238af76491b616ae5c7527678c9742a7832a7f7fe4c550874b49a39626880632",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "c5cecf0a8fc16ba76941703368188720cc8485160ae7a11bddcea5199822aeb6",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-04-15T16:00:00+05:30",
+      "reference_month": "2025-03",
+      "retrieved_at_utc": "2026-10-28T09:03:00.595124+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2121843&lang=2&reg=3"
+    },
+    {
+      "bytes": 3052807,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "4c109ae0a54b66e5cd890b725119b0fc3a82a1b925f52ec3e7774145d9399380",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "b8d886f3f40a63cdf47f52b3f269a15f691156ded21b97dae84a65dbca38e3be",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-05-13T16:00:00+05:30",
+      "reference_month": "2025-04",
+      "retrieved_at_utc": "2026-10-26T15:18:03.765967+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2128387&lang=2&reg=3"
+    },
+    {
+      "bytes": 3110835,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "84b48929dbeb4f283c67181ec67c2dd52c941ebe32704ac64662987c308f6c66",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "874e6e0d6c5e9fd0bad35ec08c22e5e51579fbc564cb34b061bd1f6fe245dc64",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-06-12T16:00:00+05:30",
+      "reference_month": "2025-05",
+      "retrieved_at_utc": "2026-10-26T15:18:13.897765+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2135927&lang=2&reg=3"
+    },
+    {
+      "bytes": 3041701,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "02dcfe5429b32b1a890268cd773168e86664f4fa057b295e5adadda461847ed3",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "33e0126cac13151507180e2b42f59df9f56c8ab61b902f74dc6ea8c3674816b0",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-07-14T16:00:00+05:30",
+      "reference_month": "2025-06",
+      "retrieved_at_utc": "2026-10-26T15:18:12.373024+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2144511&lang=2&reg=3"
+    },
+    {
+      "bytes": 3147136,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "2a8331faed3fd319b841e41cfad3d7f3bd58550e7cedc008f3dc05185df112dc",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "00bcb5dcb584db322915993d1798e312ea634ae6c559fb17a52d2f0f373a8d87",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-08-12T16:00:00+05:30",
+      "reference_month": "2025-07",
+      "retrieved_at_utc": "2026-10-26T15:18:21.673221+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2155476&lang=2&reg=3"
+    },
+    {
+      "bytes": 3082274,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "9240b063057fefc60d9d966a4f4b50dcc4b26569867f5c1e7240fa34d9a7d70b",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "80e91f2e2d57bb53c7f7536f0d957e56b85a52a15681306dad56201794c66f20",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-09-12T16:00:00+05:30",
+      "reference_month": "2025-08",
+      "retrieved_at_utc": "2026-10-26T15:18:24.943448+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2165974&lang=2&reg=3"
+    },
+    {
+      "bytes": 3195664,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "4e8ae8f43b34e3dd37e6d67be3ee1ba4ac0fdf83883889e345136f0e700d48f7",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "404327c4a50b80c520bb4cea41bc2d7aa3223fcfad7cee49f72473d496898e3b",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-10-13T16:00:00+05:30",
+      "reference_month": "2025-09",
+      "retrieved_at_utc": "2026-10-26T15:18:25.000998+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2178447&lang=2&reg=3"
+    },
+    {
+      "bytes": 3139845,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "5907b78782e48e801e32873175c8c126b06ba707dcdac49769bb121a04ff2564",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "b8f828d68a7a317b020d899fe3c786140265a4dba10e44a67208acaafb7db021",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-11-12T16:00:00+05:30",
+      "reference_month": "2025-10",
+      "retrieved_at_utc": "2026-10-26T15:18:25.775426+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2189186&lang=2&reg=3"
+    },
+    {
+      "bytes": 3119490,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "2fa4968863ece38721a29c9ec3d0748728493b8867c7e38633048b848cf3c807",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "5b0f33d080720d2c86b21c1647ec65918e77eca0767a3c0ab403167ad2fcafa2",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2025-12-12T16:00:00+05:30",
+      "reference_month": "2025-11",
+      "retrieved_at_utc": "2026-10-26T15:18:31.830904+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2202940&lang=2&reg=3"
+    },
+    {
+      "bytes": 3140528,
+      "current_row_xpaths": [
+        "/html/body/form/div[2]/div[2]/div[6]/table/tbody/tr[3]",
+        "/html/body/form/div[3]/table/tr[1]/td/div[8]/div[1]/table/tbody/tr[3]"
+      ],
+      "current_sha256": "d854c4ab82a32a250a5118dbed7bbc0c1c4e069c8a0d2baa5345dc010bdb2d2f",
+      "equivalent_tables": 2,
+      "header_period_sector_mapping_verified": true,
+      "historical_sha256": "c57b62b41f906309dfc3ce7dac929560d92702c297ef8a5f8b909a3d66c901a0",
+      "matches_historical_bytes": false,
+      "nine_cells_matched": true,
+      "published_at": "2026-01-12T16:00:00+05:30",
+      "reference_month": "2025-12",
+      "retrieved_at_utc": "2026-10-26T15:18:26.622986+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2213736&lang=2&reg=3"
+    },
+    {
+      "base_break_rows_matched": 4,
+      "bytes": 1877802,
+      "current_sha256": "59de612e2c1450b8dba1e921c092dc18ed9406289f46e57eeca8a662e8aa0bf8",
+      "historical_sha256": "d89e27f918033c42474bd1930a2f1cfa224bfb2d8f3d03ab6b2a167d99f34fa1",
+      "matches_historical_bytes": false,
+      "published_at": "2026-02-12T16:00:00+05:30",
+      "reference_month": "2026-01_new_base",
+      "retrieved_at_utc": "2026-10-26T15:18:30.304146+00:00",
+      "status": "matched",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2227012&lang=2&reg=3"
+    }
+  ],
+  "started_at_utc": "2026-10-28T09:02:40.213628+00:00"
+}

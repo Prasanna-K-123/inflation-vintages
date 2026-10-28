@@ -1,0 +1,16 @@
+{
+  "changes": [
+    "Resolve table spans and map period/status/sector headers instead of fixed column positions.",
+    "Keep historical source manifest unchanged; record actual new retrieval/check UTC times separately and reject changed bytes."
+  ],
+  "date": "2026-10-26",
+  "original_builder_sha256": "586448ac25878b8646c70fa8649379bf36c9d5d5f42ebc3813ab974872b03627",
+  "original_freezes_preserved": true,
+  "original_numeric_results_preserved": true,
+  "revised_code_sha256": {
+    "scripts/acquire_sources.py": "d5468175a533f568a9d3ea4aa35aa19cbb1592a1dacafeef10ff02d5ff99e431",
+    "scripts/build_vintages.py": "d24433ec0088fe6ec0836989ad422e8764615ba43bd5e43425cff2b96f4f5098",
+    "scripts/header_columns.py": "1c76303cf163c88fbd48585756984824be0c19009c3a6220a8cbb33d87ca746c"
+  },
+  "validation": "See source_integrity_verification_20261026.json. Fresh-source compatibility is not original-byte reconstruction."
+}
